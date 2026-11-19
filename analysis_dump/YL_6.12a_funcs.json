@@ -1,0 +1,3806 @@
+{
+  "funcs": [
+    {
+      "name": "__list_del_entry_valid",
+      "file": "204",
+      "line": "106"
+    },
+    {
+      "name": "__list_del_entry",
+      "file": "204",
+      "line": "213"
+    },
+    {
+      "name": "list_del",
+      "file": "204",
+      "line": "227"
+    },
+    {
+      "name": "__list_del",
+      "file": "204",
+      "line": "193"
+    },
+    {
+      "name": "my_module_init",
+      "file": "0",
+      "line": "12"
+    },
+    {
+      "name": "install_hook",
+      "file": "0",
+      "line": "355"
+    },
+    {
+      "name": "__list_del_entry_valid_or_report",
+      "file": "204",
+      "line": "96"
+    },
+    {
+      "name": "kobject_del",
+      "file": "45",
+      "line": "107"
+    },
+    {
+      "name": "_printk",
+      "file": "216",
+      "line": "159"
+    },
+    {
+      "name": "my_module_exit",
+      "file": "0",
+      "line": "28"
+    },
+    {
+      "name": "unstall_hook",
+      "file": "0",
+      "line": "400"
+    },
+    {
+      "name": "pte_control_exit",
+      "file": "0",
+      "line": "122"
+    },
+    {
+      "name": "fuck_cfi",
+      "file": "0",
+      "line": "241"
+    },
+    {
+      "name": "register_kprobe",
+      "file": "9",
+      "line": "405"
+    },
+    {
+      "name": "unregister_kprobe",
+      "file": "9",
+      "line": "406"
+    },
+    {
+      "name": "util_find_kallsyms",
+      "file": "0",
+      "line": "77"
+    },
+    {
+      "name": "kernel_page_shift_from_tcr",
+      "file": "0",
+      "line": "110"
+    },
+    {
+      "name": "util_kallsyms_lookup_name",
+      "file": "0",
+      "line": "127"
+    },
+    {
+      "name": "ttbr_to_phys_lpa2_aware",
+      "file": "0",
+      "line": "121"
+    },
+    {
+      "name": "phys_to_virt",
+      "file": "206",
+      "line": "381"
+    },
+    {
+      "name": "init_page_util",
+      "file": "0",
+      "line": "153"
+    },
+    {
+      "name": "level_shift",
+      "file": "0",
+      "line": "148"
+    },
+    {
+      "name": "safe_read_u64",
+      "file": "0",
+      "line": "54"
+    },
+    {
+      "name": "desc_to_phys_lpa2_aware",
+      "file": "0",
+      "line": "136"
+    },
+    {
+      "name": "pgtable_entry",
+      "file": "0",
+      "line": "182"
+    },
+    {
+      "name": "pgtable_entry_kernel",
+      "file": "0",
+      "line": "231"
+    },
+    {
+      "name": "init_hide_list",
+      "file": "0",
+      "line": "18"
+    },
+    {
+      "name": "shadow_fault_init",
+      "file": "0",
+      "line": "1245"
+    },
+    {
+      "name": "brk_bp_init",
+      "file": "0",
+      "line": "3715"
+    },
+    {
+      "name": "ioctl_hook_install",
+      "file": "0",
+      "line": "285"
+    },
+    {
+      "name": "shadow_fault_exit",
+      "file": "0",
+      "line": "1273"
+    },
+    {
+      "name": "unfuck_cfi",
+      "file": "0",
+      "line": "324"
+    },
+    {
+      "name": "ptrace_hook_install",
+      "file": "0",
+      "line": "321"
+    },
+    {
+      "name": "paradise_gyro_init",
+      "file": "0",
+      "line": "221"
+    },
+    {
+      "name": "ptrace_hook_remove",
+      "file": "0",
+      "line": "348"
+    },
+    {
+      "name": "ioctl_hook_remove",
+      "file": "0",
+      "line": "322"
+    },
+    {
+      "name": "brk_bp_exit",
+      "file": "0",
+      "line": "3768"
+    },
+    {
+      "name": "paradise_gyro_exit",
+      "file": "0",
+      "line": "239"
+    },
+    {
+      "name": "read_process_memory_pte",
+      "file": "205",
+      "line": "8"
+    },
+    {
+      "name": "read_process_memory_kmap",
+      "file": "205",
+      "line": "10"
+    },
+    {
+      "name": "read_process_memory_nocache_ioremap",
+      "file": "205",
+      "line": "14"
+    },
+    {
+      "name": "read_process_memory_kmap_manual",
+      "file": "205",
+      "line": "22"
+    },
+    {
+      "name": "read_process_memory_nocache_ioremap_manual",
+      "file": "205",
+      "line": "26"
+    },
+    {
+      "name": "chunk_read_kmap",
+      "file": "0",
+      "line": "303"
+    },
+    {
+      "name": "read_process_memory_common",
+      "file": "0",
+      "line": "461"
+    },
+    {
+      "name": "process_memory_rw",
+      "file": "0",
+      "line": "386"
+    },
+    {
+      "name": "get_mm_by_pid",
+      "file": "0",
+      "line": "241"
+    },
+    {
+      "name": "rcu_read_lock",
+      "file": "203",
+      "line": "845"
+    },
+    {
+      "name": "rcu_read_unlock",
+      "file": "203",
+      "line": "876"
+    },
+    {
+      "name": "arch_static_branch",
+      "file": "205",
+      "line": "31"
+    },
+    {
+      "name": "static_key_false",
+      "file": "184",
+      "line": "228"
+    },
+    {
+      "name": "__mmap_lock_trace_start_locking",
+      "file": "218",
+      "line": "25"
+    },
+    {
+      "name": "mmap_read_lock",
+      "file": "218",
+      "line": "192"
+    },
+    {
+      "name": "__mmap_lock_trace_acquire_returned",
+      "file": "218",
+      "line": "32"
+    },
+    {
+      "name": "translate_va_to_pa",
+      "file": "0",
+      "line": "225"
+    },
+    {
+      "name": "manual_walk_va_to_pa",
+      "file": "0",
+      "line": "131"
+    },
+    {
+      "name": "my_mmu_translate_va_to_pa",
+      "file": "0",
+      "line": "52"
+    },
+    {
+      "name": "pgd_offset_pgd",
+      "file": "208",
+      "line": "138"
+    },
+    {
+      "name": "pud_pgtable",
+      "file": "209",
+      "line": "849"
+    },
+    {
+      "name": "pmd_offset",
+      "file": "208",
+      "line": "123"
+    },
+    {
+      "name": "pud_page_paddr",
+      "file": "209",
+      "line": "844"
+    },
+    {
+      "name": "pmd_index",
+      "file": "208",
+      "line": "73"
+    },
+    {
+      "name": "pmd_page_paddr",
+      "file": "209",
+      "line": "776"
+    },
+    {
+      "name": "pmd_page_vaddr",
+      "file": "209",
+      "line": "781"
+    },
+    {
+      "name": "pte_offset_kernel",
+      "file": "208",
+      "line": "94"
+    },
+    {
+      "name": "pte_index",
+      "file": "208",
+      "line": "67"
+    },
+    {
+      "name": "sign_extend64",
+      "file": "200",
+      "line": "197"
+    },
+    {
+      "name": "virt_to_phys",
+      "file": "206",
+      "line": "375"
+    },
+    {
+      "name": "__mmap_lock_trace_released",
+      "file": "218",
+      "line": "39"
+    },
+    {
+      "name": "mmap_read_unlock",
+      "file": "218",
+      "line": "219"
+    },
+    {
+      "name": "find_get_pid",
+      "file": "69",
+      "line": "127"
+    },
+    {
+      "name": "__rcu_read_lock",
+      "file": "203",
+      "line": "72"
+    },
+    {
+      "name": "pid_task",
+      "file": "69",
+      "line": "89"
+    },
+    {
+      "name": "get_task_mm",
+      "file": "214",
+      "line": "151"
+    },
+    {
+      "name": "__rcu_read_unlock",
+      "file": "203",
+      "line": "73"
+    },
+    {
+      "name": "put_pid",
+      "file": "69",
+      "line": "88"
+    },
+    {
+      "name": "down_read",
+      "file": "30",
+      "line": "221"
+    },
+    {
+      "name": "__mmap_lock_do_trace_released",
+      "file": "218",
+      "line": "23"
+    },
+    {
+      "name": "up_read",
+      "file": "30",
+      "line": "244"
+    },
+    {
+      "name": "mmput",
+      "file": "214",
+      "line": "142"
+    },
+    {
+      "name": "__mmap_lock_do_trace_start_locking",
+      "file": "218",
+      "line": "20"
+    },
+    {
+      "name": "__mmap_lock_do_trace_acquire_returned",
+      "file": "218",
+      "line": "21"
+    },
+    {
+      "name": "virt_to_pfn",
+      "file": "206",
+      "line": "389"
+    },
+    {
+      "name": "check_copy_size",
+      "file": "211",
+      "line": "237"
+    },
+    {
+      "name": "copy_to_user",
+      "file": "223",
+      "line": "217"
+    },
+    {
+      "name": "check_object_size",
+      "file": "211",
+      "line": "211"
+    },
+    {
+      "name": "get_current",
+      "file": "201",
+      "line": "15"
+    },
+    {
+      "name": "access_ok",
+      "file": "231",
+      "line": "38"
+    },
+    {
+      "name": "_inline_copy_to_user",
+      "file": "223",
+      "line": "190"
+    },
+    {
+      "name": "generic_test_bit",
+      "file": "202",
+      "line": "121"
+    },
+    {
+      "name": "test_ti_thread_flag",
+      "file": "211",
+      "line": "116"
+    },
+    {
+      "name": "__access_ok",
+      "file": "237",
+      "line": "31"
+    },
+    {
+      "name": "alternative_has_cap_unlikely",
+      "file": "226",
+      "line": "250"
+    },
+    {
+      "name": "system_uses_hw_pan",
+      "file": "232",
+      "line": "744"
+    },
+    {
+      "name": "system_uses_ttbr0_pan",
+      "file": "232",
+      "line": "749"
+    },
+    {
+      "name": "uaccess_ttbr0_enable",
+      "file": "231",
+      "line": "106"
+    },
+    {
+      "name": "system_uses_irq_prio_masking",
+      "file": "232",
+      "line": "805"
+    },
+    {
+      "name": "arch_local_irq_save",
+      "file": "236",
+      "line": "163"
+    },
+    {
+      "name": "__uaccess_ttbr0_enable",
+      "file": "231",
+      "line": "74"
+    },
+    {
+      "name": "__daif_local_save_flags",
+      "file": "236",
+      "line": "80"
+    },
+    {
+      "name": "__daif_local_irq_save",
+      "file": "236",
+      "line": "140"
+    },
+    {
+      "name": "__daif_local_irq_disable",
+      "file": "236",
+      "line": "52"
+    },
+    {
+      "name": "arch_local_irq_restore",
+      "file": "236",
+      "line": "190"
+    },
+    {
+      "name": "__daif_local_irq_restore",
+      "file": "236",
+      "line": "172"
+    },
+    {
+      "name": "__uaccess_mask_ptr",
+      "file": "231",
+      "line": "165"
+    },
+    {
+      "name": "uaccess_ttbr0_disable",
+      "file": "231",
+      "line": "98"
+    },
+    {
+      "name": "__uaccess_ttbr0_disable",
+      "file": "231",
+      "line": "59"
+    },
+    {
+      "name": "__pmr_local_save_flags",
+      "file": "236",
+      "line": "85"
+    },
+    {
+      "name": "__pmr_local_irq_save",
+      "file": "236",
+      "line": "149"
+    },
+    {
+      "name": "__pmr_local_irq_disable",
+      "file": "236",
+      "line": "59"
+    },
+    {
+      "name": "__pmr_local_irq_restore",
+      "file": "236",
+      "line": "179"
+    },
+    {
+      "name": "chunk_read_linear",
+      "file": "0",
+      "line": "278"
+    },
+    {
+      "name": "pfn_is_map_memory",
+      "file": "165",
+      "line": "44"
+    },
+    {
+      "name": "__check_object_size",
+      "file": "211",
+      "line": "208"
+    },
+    {
+      "name": "__arch_copy_to_user",
+      "file": "231",
+      "line": "405"
+    },
+    {
+      "name": "mem_alloc_profiling_enabled",
+      "file": "36",
+      "line": "119"
+    },
+    {
+      "name": "kmalloc_noprof",
+      "file": "196",
+      "line": "872"
+    },
+    {
+      "name": "alloc_tag_save",
+      "file": "33",
+      "line": "2362"
+    },
+    {
+      "name": "alloc_tag_restore",
+      "file": "33",
+      "line": "2368"
+    },
+    {
+      "name": "__kmalloc_cache_noprof",
+      "file": "196",
+      "line": "804"
+    },
+    {
+      "name": "kfree",
+      "file": "196",
+      "line": "449"
+    },
+    {
+      "name": "chunk_read_pte",
+      "file": "0",
+      "line": "268"
+    },
+    {
+      "name": "pte_read_physical",
+      "file": "0",
+      "line": "89"
+    },
+    {
+      "name": "pfn_valid",
+      "file": "91",
+      "line": "2096"
+    },
+    {
+      "name": "__nr_to_section",
+      "file": "91",
+      "line": "1943"
+    },
+    {
+      "name": "__pfn_to_section",
+      "file": "91",
+      "line": "2057"
+    },
+    {
+      "name": "__preempt_count_add",
+      "file": "219",
+      "line": "45"
+    },
+    {
+      "name": "rcu_read_lock_sched",
+      "file": "203",
+      "line": "937"
+    },
+    {
+      "name": "valid_section",
+      "file": "91",
+      "line": "2013"
+    },
+    {
+      "name": "rcu_read_unlock_sched",
+      "file": "203",
+      "line": "958"
+    },
+    {
+      "name": "__preempt_count_dec_and_test",
+      "file": "219",
+      "line": "59"
+    },
+    {
+      "name": "pfn_section_valid",
+      "file": "91",
+      "line": "2070"
+    },
+    {
+      "name": "subsection_map_index",
+      "file": "91",
+      "line": "2064"
+    },
+    {
+      "name": "kmap_atomic",
+      "file": "157",
+      "line": "205"
+    },
+    {
+      "name": "pagefault_disabled_inc",
+      "file": "151",
+      "line": "242"
+    },
+    {
+      "name": "pagefault_disable",
+      "file": "151",
+      "line": "259"
+    },
+    {
+      "name": "arch_static_branch_jump",
+      "file": "205",
+      "line": "46"
+    },
+    {
+      "name": "kasan_enabled",
+      "file": "212",
+      "line": "11"
+    },
+    {
+      "name": "page_kasan_tag",
+      "file": "75",
+      "line": "1921"
+    },
+    {
+      "name": "lowmem_page_address",
+      "file": "75",
+      "line": "2412"
+    },
+    {
+      "name": "__tag_set",
+      "file": "206",
+      "line": "315"
+    },
+    {
+      "name": "pagefault_enable",
+      "file": "151",
+      "line": "269"
+    },
+    {
+      "name": "__kunmap_atomic",
+      "file": "157",
+      "line": "225"
+    },
+    {
+      "name": "pagefault_disabled_dec",
+      "file": "151",
+      "line": "247"
+    },
+    {
+      "name": "preempt_schedule",
+      "file": "219",
+      "line": "85"
+    },
+    {
+      "name": "read_process_memory_nocache_vmap",
+      "file": "0",
+      "line": "499"
+    },
+    {
+      "name": "chunk_read_vmap",
+      "file": "0",
+      "line": "324"
+    },
+    {
+      "name": "mutex_lock",
+      "file": "215",
+      "line": "178"
+    },
+    {
+      "name": "vmap",
+      "file": "136",
+      "line": "202"
+    },
+    {
+      "name": "vunmap",
+      "file": "136",
+      "line": "205"
+    },
+    {
+      "name": "mutex_unlock",
+      "file": "215",
+      "line": "197"
+    },
+    {
+      "name": "chunk_read_ioremap",
+      "file": "0",
+      "line": "355"
+    },
+    {
+      "name": "ioremap_prot",
+      "file": "161",
+      "line": "1053"
+    },
+    {
+      "name": "__memcpy_fromio",
+      "file": "162",
+      "line": "134"
+    },
+    {
+      "name": "iounmap",
+      "file": "161",
+      "line": "1055"
+    },
+    {
+      "name": "write_process_memory",
+      "file": "0",
+      "line": "522"
+    },
+    {
+      "name": "copy_from_user",
+      "file": "223",
+      "line": "205"
+    },
+    {
+      "name": "_inline_copy_from_user",
+      "file": "223",
+      "line": "159"
+    },
+    {
+      "name": "chunk_write_linear",
+      "file": "0",
+      "line": "294"
+    },
+    {
+      "name": "__arch_copy_from_user",
+      "file": "231",
+      "line": "394"
+    },
+    {
+      "name": "read_process_memory_common_manual",
+      "file": "0",
+      "line": "530"
+    },
+    {
+      "name": "read_process_memory_nocache_vmap_manual",
+      "file": "0",
+      "line": "553"
+    },
+    {
+      "name": "pte_read_init_locked",
+      "file": "0",
+      "line": "35"
+    },
+    {
+      "name": "__ptep_get",
+      "file": "201",
+      "line": "336"
+    },
+    {
+      "name": "set_pte",
+      "file": "201",
+      "line": "1641"
+    },
+    {
+      "name": "__set_pte_nosync",
+      "file": "201",
+      "line": "317"
+    },
+    {
+      "name": "__set_pte",
+      "file": "201",
+      "line": "322"
+    },
+    {
+      "name": "pte_read_flush_tlb",
+      "file": "0",
+      "line": "22"
+    },
+    {
+      "name": "vmalloc_noprof",
+      "file": "169",
+      "line": "146"
+    },
+    {
+      "name": "vfree",
+      "file": "169",
+      "line": "199"
+    },
+    {
+      "name": "kbasename",
+      "file": "24",
+      "line": "383"
+    },
+    {
+      "name": "get_module_base",
+      "file": "207",
+      "line": "24"
+    },
+    {
+      "name": "find_vma",
+      "file": "75",
+      "line": "3602"
+    },
+    {
+      "name": "file_path",
+      "file": "3",
+      "line": "3093"
+    },
+    {
+      "name": "strrchr",
+      "file": "149",
+      "line": "10"
+    },
+    {
+      "name": "strstr",
+      "file": "24",
+      "line": "194"
+    },
+    {
+      "name": "do_config_gyro_hook",
+      "file": "206",
+      "line": "10"
+    },
+    {
+      "name": "gyro_sendto_handler",
+      "file": "0",
+      "line": "113"
+    },
+    {
+      "name": "fortify_memset_chk",
+      "file": "16",
+      "line": "462"
+    },
+    {
+      "name": "__fortify_panic",
+      "file": "194",
+      "line": "56"
+    },
+    {
+      "name": "float_add",
+      "file": "0",
+      "line": "45"
+    },
+    {
+      "name": "hook_ioctl",
+      "file": "0",
+      "line": "38"
+    },
+    {
+      "name": "alternative_has_cap_likely",
+      "file": "226",
+      "line": "228"
+    },
+    {
+      "name": "arch_atomic_add",
+      "file": "228",
+      "line": "28"
+    },
+    {
+      "name": "raw_atomic_add",
+      "file": "207",
+      "line": "544"
+    },
+    {
+      "name": "raw_atomic_inc",
+      "file": "207",
+      "line": "989"
+    },
+    {
+      "name": "atomic_inc",
+      "file": "213",
+      "line": "433"
+    },
+    {
+      "name": "__lse_atomic_add",
+      "file": "227",
+      "line": "27"
+    },
+    {
+      "name": "arch_atomic_sub",
+      "file": "228",
+      "line": "30"
+    },
+    {
+      "name": "raw_atomic_sub",
+      "file": "207",
+      "line": "767"
+    },
+    {
+      "name": "raw_atomic_dec",
+      "file": "207",
+      "line": "1207"
+    },
+    {
+      "name": "atomic_dec",
+      "file": "213",
+      "line": "590"
+    },
+    {
+      "name": "__lse_atomic_sub",
+      "file": "227",
+      "line": "29"
+    },
+    {
+      "name": "__ll_sc_atomic_add",
+      "file": "225",
+      "line": "95"
+    },
+    {
+      "name": "__ll_sc_atomic_sub",
+      "file": "225",
+      "line": "96"
+    },
+    {
+      "name": "brk_bp_memwrite",
+      "file": "0",
+      "line": "3122"
+    },
+    {
+      "name": "shadow_entry_get_hits",
+      "file": "0",
+      "line": "1187"
+    },
+    {
+      "name": "shadow_entry_del",
+      "file": "0",
+      "line": "1136"
+    },
+    {
+      "name": "hide_kgsl",
+      "file": "0",
+      "line": "58"
+    },
+    {
+      "name": "hide_cts",
+      "file": "0",
+      "line": "68"
+    },
+    {
+      "name": "shadow_entry_add",
+      "file": "0",
+      "line": "970"
+    },
+    {
+      "name": "brk_bp_add",
+      "file": "0",
+      "line": "2603"
+    },
+    {
+      "name": "brk_bp_del",
+      "file": "0",
+      "line": "3433"
+    },
+    {
+      "name": "brk_bp_update_cfg",
+      "file": "0",
+      "line": "3033"
+    },
+    {
+      "name": "brk_bp_get_hits",
+      "file": "0",
+      "line": "3618"
+    },
+    {
+      "name": "reset_ioctl_hook_state",
+      "file": "0",
+      "line": "30"
+    },
+    {
+      "name": "kp_core_hook_install",
+      "file": "190",
+      "line": "60"
+    },
+    {
+      "name": "raw_atomic_read",
+      "file": "207",
+      "line": "455"
+    },
+    {
+      "name": "atomic_read",
+      "file": "213",
+      "line": "30"
+    },
+    {
+      "name": "kp_core_hook_restore",
+      "file": "190",
+      "line": "62"
+    },
+    {
+      "name": "msleep",
+      "file": "222",
+      "line": "61"
+    },
+    {
+      "name": "kp_core_hook_release",
+      "file": "190",
+      "line": "63"
+    },
+    {
+      "name": "install_hw_bp",
+      "file": "0",
+      "line": "507"
+    },
+    {
+      "name": "get_hw_bp_hits",
+      "file": "0",
+      "line": "617"
+    },
+    {
+      "name": "update_hw_bp",
+      "file": "0",
+      "line": "765"
+    },
+    {
+      "name": "resolve_symbols",
+      "file": "0",
+      "line": "113"
+    },
+    {
+      "name": "kzalloc_noprof",
+      "file": "196",
+      "line": "1015"
+    },
+    {
+      "name": "fortify_memcpy_chk",
+      "file": "194",
+      "line": "547"
+    },
+    {
+      "name": "spin_unlock_irqrestore",
+      "file": "210",
+      "line": "404"
+    },
+    {
+      "name": "hw_breakpoint_init",
+      "file": "199",
+      "line": "22"
+    },
+    {
+      "name": "put_task_struct",
+      "file": "188",
+      "line": "135"
+    },
+    {
+      "name": "arch_atomic_fetch_sub_release",
+      "file": "204",
+      "line": "51"
+    },
+    {
+      "name": "raw_atomic_fetch_sub_release",
+      "file": "205",
+      "line": "941"
+    },
+    {
+      "name": "atomic_fetch_sub_release",
+      "file": "206",
+      "line": "397"
+    },
+    {
+      "name": "__refcount_sub_and_test",
+      "file": "194",
+      "line": "387"
+    },
+    {
+      "name": "__refcount_dec_and_test",
+      "file": "194",
+      "line": "430"
+    },
+    {
+      "name": "refcount_dec_and_test",
+      "file": "194",
+      "line": "448"
+    },
+    {
+      "name": "__lse_atomic_fetch_add_release",
+      "file": "201",
+      "line": "62"
+    },
+    {
+      "name": "__lse_atomic_fetch_sub_release",
+      "file": "201",
+      "line": "76"
+    },
+    {
+      "name": "__ll_sc_atomic_fetch_sub_release",
+      "file": "203",
+      "line": "96"
+    },
+    {
+      "name": "find_vpid",
+      "file": "130",
+      "line": "122"
+    },
+    {
+      "name": "get_pid_task",
+      "file": "130",
+      "line": "94"
+    },
+    {
+      "name": "__kmalloc_large_noprof",
+      "file": "196",
+      "line": "811"
+    },
+    {
+      "name": "_raw_spin_lock_irqsave",
+      "file": "217",
+      "line": "32"
+    },
+    {
+      "name": "_raw_spin_unlock_irqrestore",
+      "file": "217",
+      "line": "43"
+    },
+    {
+      "name": "__put_task_struct",
+      "file": "188",
+      "line": "132"
+    },
+    {
+      "name": "__warn_printk",
+      "file": "179",
+      "line": "93"
+    },
+    {
+      "name": "list_add",
+      "file": "213",
+      "line": "167"
+    },
+    {
+      "name": "refcount_warn_saturate",
+      "file": "194",
+      "line": "125"
+    },
+    {
+      "name": "snapshot_bp_apply_cfg",
+      "file": "0",
+      "line": "251"
+    },
+    {
+      "name": "apply_general_regs",
+      "file": "0",
+      "line": "281"
+    },
+    {
+      "name": "is_valid_user_pc",
+      "file": "0",
+      "line": "226"
+    },
+    {
+      "name": "hw_is_ttbr0_addr",
+      "file": "0",
+      "line": "221"
+    },
+    {
+      "name": "task_pid_nr",
+      "file": "69",
+      "line": "230"
+    },
+    {
+      "name": "apply_fpsimd_regs",
+      "file": "0",
+      "line": "310"
+    },
+    {
+      "name": "hw_bp_handler",
+      "file": "0",
+      "line": "445"
+    },
+    {
+      "name": "___ratelimit",
+      "file": "60",
+      "line": "44"
+    },
+    {
+      "name": "__list_add_valid",
+      "file": "204",
+      "line": "65"
+    },
+    {
+      "name": "__list_add",
+      "file": "204",
+      "line": "146"
+    },
+    {
+      "name": "__list_add_valid_or_report",
+      "file": "204",
+      "line": "53"
+    },
+    {
+      "name": "kmalloc_array_noprof",
+      "file": "196",
+      "line": "918"
+    },
+    {
+      "name": "__kmalloc_noprof",
+      "file": "196",
+      "line": "798"
+    },
+    {
+      "name": "clear_all_hw_bps",
+      "file": "0",
+      "line": "677"
+    },
+    {
+      "name": "hw_point_init",
+      "file": "0",
+      "line": "704"
+    },
+    {
+      "name": "set_hw_bp_enabled",
+      "file": "0",
+      "line": "902"
+    },
+    {
+      "name": "enable_hw_bp",
+      "file": "0",
+      "line": "933"
+    },
+    {
+      "name": "disable_hw_bp",
+      "file": "0",
+      "line": "938"
+    },
+    {
+      "name": "set_hwbp_reg_config",
+      "file": "0",
+      "line": "949"
+    },
+    {
+      "name": "hw_bp_step_handler",
+      "file": "0",
+      "line": "475"
+    },
+    {
+      "name": "kp_resolve_symbols",
+      "file": "0",
+      "line": "367"
+    },
+    {
+      "name": "kp_follow_entry",
+      "file": "0",
+      "line": "225"
+    },
+    {
+      "name": "kp_sign_extend",
+      "file": "0",
+      "line": "173"
+    },
+    {
+      "name": "kp_is_bti",
+      "file": "0",
+      "line": "186"
+    },
+    {
+      "name": "kp_is_kernel_text_addr",
+      "file": "0",
+      "line": "180"
+    },
+    {
+      "name": "kp_alloc_slot",
+      "file": "0",
+      "line": "422"
+    },
+    {
+      "name": "kp_is_kprobe_brk",
+      "file": "0",
+      "line": "197"
+    },
+    {
+      "name": "kp_inst_type",
+      "file": "0",
+      "line": "208"
+    },
+    {
+      "name": "kp_relocate_insn",
+      "file": "0",
+      "line": "257"
+    },
+    {
+      "name": "kp_bits",
+      "file": "0",
+      "line": "168"
+    },
+    {
+      "name": "kp_slot_base",
+      "file": "0",
+      "line": "416"
+    },
+    {
+      "name": "kp_restore_kprobe_insn",
+      "file": "0",
+      "line": "384"
+    },
+    {
+      "name": "kp_build_patch",
+      "file": "0",
+      "line": "484"
+    },
+    {
+      "name": "kp_patch_frame",
+      "file": "0",
+      "line": "449"
+    },
+    {
+      "name": "kp_put_u64",
+      "file": "0",
+      "line": "219"
+    },
+    {
+      "name": "kp_patch_text",
+      "file": "0",
+      "line": "408"
+    },
+    {
+      "name": "kp_apply_patch",
+      "file": "0",
+      "line": "504"
+    },
+    {
+      "name": "kp_free_slot",
+      "file": "0",
+      "line": "438"
+    },
+    {
+      "name": "kp_core_hook_remove",
+      "file": "0",
+      "line": "630"
+    },
+    {
+      "name": "kp_core_patch_insn",
+      "file": "0",
+      "line": "641"
+    },
+    {
+      "name": "ptrace_spoof_add",
+      "file": "0",
+      "line": "370"
+    },
+    {
+      "name": "fake_getregset_break",
+      "file": "0",
+      "line": "112"
+    },
+    {
+      "name": "task_tgid_vnr",
+      "file": "140",
+      "line": "292"
+    },
+    {
+      "name": "find_spoof_entry_locked",
+      "file": "0",
+      "line": "78"
+    },
+    {
+      "name": "get_max_brps",
+      "file": "0",
+      "line": "90"
+    },
+    {
+      "name": "fake_setregset_break",
+      "file": "0",
+      "line": "201"
+    },
+    {
+      "name": "fake_getregset_watch",
+      "file": "0",
+      "line": "163"
+    },
+    {
+      "name": "fake_setregset_watch",
+      "file": "0",
+      "line": "238"
+    },
+    {
+      "name": "hook_ptrace",
+      "file": "0",
+      "line": "283"
+    },
+    {
+      "name": "__task_pid_nr_ns",
+      "file": "140",
+      "line": "228"
+    },
+    {
+      "name": "list_add_tail",
+      "file": "204",
+      "line": "181"
+    },
+    {
+      "name": "ptrace_spoof_remove",
+      "file": "0",
+      "line": "399"
+    },
+    {
+      "name": "hide_kgsl_dir",
+      "file": "0",
+      "line": "25"
+    },
+    {
+      "name": "kernfs_type",
+      "file": "3",
+      "line": "350"
+    },
+    {
+      "name": "arch_atomic64_sub",
+      "file": "192",
+      "line": "69"
+    },
+    {
+      "name": "raw_atomic64_sub",
+      "file": "193",
+      "line": "2893"
+    },
+    {
+      "name": "raw_atomic64_dec",
+      "file": "193",
+      "line": "3333"
+    },
+    {
+      "name": "raw_atomic_long_dec",
+      "file": "7",
+      "line": "675"
+    },
+    {
+      "name": "atomic_long_dec",
+      "file": "194",
+      "line": "3746"
+    },
+    {
+      "name": "__lse_atomic64_add",
+      "file": "190",
+      "line": "134"
+    },
+    {
+      "name": "__lse_atomic64_sub",
+      "file": "190",
+      "line": "136"
+    },
+    {
+      "name": "__ll_sc_atomic64_sub",
+      "file": "191",
+      "line": "192"
+    },
+    {
+      "name": "rb_first",
+      "file": "195",
+      "line": "46"
+    },
+    {
+      "name": "rb_next",
+      "file": "195",
+      "line": "44"
+    },
+    {
+      "name": "kstrtoint",
+      "file": "196",
+      "line": "72"
+    },
+    {
+      "name": "rb_erase",
+      "file": "195",
+      "line": "40"
+    },
+    {
+      "name": "spin_lock",
+      "file": "210",
+      "line": "349"
+    },
+    {
+      "name": "hlist_unhashed",
+      "file": "198",
+      "line": "956"
+    },
+    {
+      "name": "hlist_del_init",
+      "file": "198",
+      "line": "1013"
+    },
+    {
+      "name": "__hlist_del",
+      "file": "198",
+      "line": "983"
+    },
+    {
+      "name": "INIT_HLIST_NODE",
+      "file": "198",
+      "line": "942"
+    },
+    {
+      "name": "spin_unlock",
+      "file": "210",
+      "line": "389"
+    },
+    {
+      "name": "debugfs_lookup",
+      "file": "199",
+      "line": "72"
+    },
+    {
+      "name": "snprintf",
+      "file": "200",
+      "line": "13"
+    },
+    {
+      "name": "_raw_spin_lock",
+      "file": "217",
+      "line": "22"
+    },
+    {
+      "name": "_raw_spin_unlock",
+      "file": "217",
+      "line": "39"
+    },
+    {
+      "name": "dput",
+      "file": "17",
+      "line": "398"
+    },
+    {
+      "name": "shadow_entry_fill_reg_config",
+      "file": "0",
+      "line": "956"
+    },
+    {
+      "name": "handle_shadow_page_fault",
+      "file": "0",
+      "line": "364"
+    },
+    {
+      "name": "shadow_apply_fp_reg_config",
+      "file": "0",
+      "line": "319"
+    },
+    {
+      "name": "shadow_log_emu_failure",
+      "file": "0",
+      "line": "343"
+    },
+    {
+      "name": "shadow_exec_addr",
+      "file": "0",
+      "line": "261"
+    },
+    {
+      "name": "shadow_find_user_pte",
+      "file": "0",
+      "line": "821"
+    },
+    {
+      "name": "raw_atomic_set",
+      "file": "207",
+      "line": "501"
+    },
+    {
+      "name": "atomic_set",
+      "file": "213",
+      "line": "65"
+    },
+    {
+      "name": "__init_waitqueue_head",
+      "file": "65",
+      "line": "62"
+    },
+    {
+      "name": "shadow_write_user_pte",
+      "file": "0",
+      "line": "862"
+    },
+    {
+      "name": "shadow_pte_matches",
+      "file": "0",
+      "line": "117"
+    },
+    {
+      "name": "pte_lockptr",
+      "file": "75",
+      "line": "3116"
+    },
+    {
+      "name": "ptlock_ptr",
+      "file": "75",
+      "line": "3110"
+    },
+    {
+      "name": "clear_pte_bit",
+      "file": "201",
+      "line": "188"
+    },
+    {
+      "name": "pte_mknoncont",
+      "file": "201",
+      "line": "273"
+    },
+    {
+      "name": "shadow_flush_user_tlb_addr",
+      "file": "0",
+      "line": "849"
+    },
+    {
+      "name": "shadow_entry_wait_for_faults",
+      "file": "0",
+      "line": "153"
+    },
+    {
+      "name": "init_wait_entry",
+      "file": "65",
+      "line": "286"
+    },
+    {
+      "name": "prepare_to_wait_event",
+      "file": "65",
+      "line": "1195"
+    },
+    {
+      "name": "schedule",
+      "file": "33",
+      "line": "321"
+    },
+    {
+      "name": "finish_wait",
+      "file": "65",
+      "line": "1196"
+    },
+    {
+      "name": "install_do_mem_abort_inline_hook",
+      "file": "0",
+      "line": "738"
+    },
+    {
+      "name": "uninstall_do_mem_abort_inline_hook",
+      "file": "0",
+      "line": "780"
+    },
+    {
+      "name": "list_empty",
+      "file": "204",
+      "line": "371"
+    },
+    {
+      "name": "list_splice_init",
+      "file": "212",
+      "line": "568"
+    },
+    {
+      "name": "__list_splice",
+      "file": "212",
+      "line": "523"
+    },
+    {
+      "name": "INIT_LIST_HEAD",
+      "file": "204",
+      "line": "35"
+    },
+    {
+      "name": "__mmu_notifier_arch_invalidate_secondary_tlbs",
+      "file": "0",
+      "line": "1324"
+    },
+    {
+      "name": "my_do_mem_abort",
+      "file": "0",
+      "line": "722"
+    },
+    {
+      "name": "mmap_read_trylock",
+      "file": "199",
+      "line": "209"
+    },
+    {
+      "name": "ktime_get_ns",
+      "file": "229",
+      "line": "167"
+    },
+    {
+      "name": "arch_atomic_sub_return",
+      "file": "228",
+      "line": "53"
+    },
+    {
+      "name": "raw_atomic_sub_return",
+      "file": "207",
+      "line": "784"
+    },
+    {
+      "name": "raw_atomic_dec_return",
+      "file": "207",
+      "line": "1227"
+    },
+    {
+      "name": "raw_atomic_dec_and_test",
+      "file": "207",
+      "line": "2275"
+    },
+    {
+      "name": "atomic_dec_and_test",
+      "file": "213",
+      "line": "1380"
+    },
+    {
+      "name": "shadow_entry_put_fault",
+      "file": "0",
+      "line": "147"
+    },
+    {
+      "name": "__lse_atomic_fetch_add",
+      "file": "227",
+      "line": "62"
+    },
+    {
+      "name": "__lse_atomic_fetch_sub",
+      "file": "227",
+      "line": "77"
+    },
+    {
+      "name": "__lse_atomic_sub_return",
+      "file": "227",
+      "line": "97"
+    },
+    {
+      "name": "emulate_insn",
+      "file": "189",
+      "line": "5091"
+    },
+    {
+      "name": "emu_read_mem",
+      "file": "189",
+      "line": "147"
+    },
+    {
+      "name": "emu_is_narrow_insn",
+      "file": "189",
+      "line": "3826"
+    },
+    {
+      "name": "emu_is_narrow_shift_insn",
+      "file": "189",
+      "line": "4045"
+    },
+    {
+      "name": "emu_is_int_reduce_insn",
+      "file": "189",
+      "line": "3926"
+    },
+    {
+      "name": "emu_simd_immh_len",
+      "file": "189",
+      "line": "4034"
+    },
+    {
+      "name": "emu_simulate_narrow_insn",
+      "file": "189",
+      "line": "3865"
+    },
+    {
+      "name": "emu_read_task_q_reg",
+      "file": "189",
+      "line": "84"
+    },
+    {
+      "name": "emu_simd_set_lane",
+      "file": "189",
+      "line": "3738"
+    },
+    {
+      "name": "emu_simd_get_lane",
+      "file": "189",
+      "line": "3727"
+    },
+    {
+      "name": "emu_simd_sign_extend",
+      "file": "189",
+      "line": "3751"
+    },
+    {
+      "name": "emu_simd_sat_signed",
+      "file": "189",
+      "line": "3767"
+    },
+    {
+      "name": "emu_simd_sat_signed_to_unsigned",
+      "file": "189",
+      "line": "3801"
+    },
+    {
+      "name": "emu_write_task_q_reg",
+      "file": "189",
+      "line": "91"
+    },
+    {
+      "name": "emu_simd_note_saturation",
+      "file": "189",
+      "line": "3820"
+    },
+    {
+      "name": "emu_read_task_fpsr",
+      "file": "189",
+      "line": "98"
+    },
+    {
+      "name": "emu_write_task_fpsr",
+      "file": "189",
+      "line": "108"
+    },
+    {
+      "name": "write_fpsr",
+      "file": "230",
+      "line": "162"
+    },
+    {
+      "name": "emu_simulate_int_reduce_insn",
+      "file": "189",
+      "line": "3966"
+    },
+    {
+      "name": "emu_simd_lane_mask",
+      "file": "189",
+      "line": "3722"
+    },
+    {
+      "name": "emu_is_tbl_insn",
+      "file": "189",
+      "line": "4193"
+    },
+    {
+      "name": "emu_simulate_tbl_insn",
+      "file": "189",
+      "line": "4222"
+    },
+    {
+      "name": "emu_simulate_narrow_shift_insn",
+      "file": "189",
+      "line": "4106"
+    },
+    {
+      "name": "emu_simd_sat_unsigned",
+      "file": "189",
+      "line": "3787"
+    },
+    {
+      "name": "emu_simulate_data_processing_insn",
+      "file": "189",
+      "line": "4674"
+    },
+    {
+      "name": "emu_simulate_branch_insn",
+      "file": "189",
+      "line": "760"
+    },
+    {
+      "name": "reg_read",
+      "file": "189",
+      "line": "121"
+    },
+    {
+      "name": "emu_simulate_load_store_insn",
+      "file": "189",
+      "line": "817"
+    },
+    {
+      "name": "addr_reg_read",
+      "file": "189",
+      "line": "129"
+    },
+    {
+      "name": "emu_simulate_fp_simd_insn",
+      "file": "189",
+      "line": "2929"
+    },
+    {
+      "name": "emu_read_task_fpcr",
+      "file": "189",
+      "line": "103"
+    },
+    {
+      "name": "write_fpcr",
+      "file": "230",
+      "line": "190"
+    },
+    {
+      "name": "emu_simd_extra_by_element_hw",
+      "file": "189",
+      "line": "2284"
+    },
+    {
+      "name": "emu_simd_current_cpu_has_feature",
+      "file": "189",
+      "line": "1618"
+    },
+    {
+      "name": "emu_simd_extract_lane_hw",
+      "file": "189",
+      "line": "1304"
+    },
+    {
+      "name": "emu_simd_write_scalar_hw",
+      "file": "189",
+      "line": "1410"
+    },
+    {
+      "name": "emu_simulate_system_insn",
+      "file": "189",
+      "line": "656"
+    },
+    {
+      "name": "emu_system_option_insn",
+      "file": "189",
+      "line": "629"
+    },
+    {
+      "name": "emu_cond_holds_hw",
+      "file": "189",
+      "line": "248"
+    },
+    {
+      "name": "emu_dp_mask",
+      "file": "189",
+      "line": "4266"
+    },
+    {
+      "name": "emu_addsub_hw",
+      "file": "189",
+      "line": "403"
+    },
+    {
+      "name": "emu_minmax_hw",
+      "file": "189",
+      "line": "509"
+    },
+    {
+      "name": "emu_move_wide_hw",
+      "file": "189",
+      "line": "4382"
+    },
+    {
+      "name": "emu_cond_select_hw",
+      "file": "189",
+      "line": "276"
+    },
+    {
+      "name": "emu_sign_extend_hw",
+      "file": "189",
+      "line": "582"
+    },
+    {
+      "name": "emu_extend_reg",
+      "file": "189",
+      "line": "356"
+    },
+    {
+      "name": "emu_extract_bits",
+      "file": "189",
+      "line": "4271"
+    },
+    {
+      "name": "emu_bitfield_hw",
+      "file": "189",
+      "line": "4302"
+    },
+    {
+      "name": "emu_dp_shift_hw",
+      "file": "189",
+      "line": "4443"
+    },
+    {
+      "name": "emu_dp_rev16_hw",
+      "file": "189",
+      "line": "4505"
+    },
+    {
+      "name": "emu_write_mem",
+      "file": "189",
+      "line": "204"
+    },
+    {
+      "name": "emu_logic_hw",
+      "file": "189",
+      "line": "450"
+    },
+    {
+      "name": "emu_simd_current_cpu_has_fp16",
+      "file": "189",
+      "line": "1656"
+    },
+    {
+      "name": "emu_fp16_scalar_2source_hw",
+      "file": "189",
+      "line": "1677"
+    },
+    {
+      "name": "emu_fp16_scalar_1source_hw",
+      "file": "189",
+      "line": "1713"
+    },
+    {
+      "name": "emu_fp16_scalar_3source_hw",
+      "file": "189",
+      "line": "1764"
+    },
+    {
+      "name": "emu_fp16_compare_hw",
+      "file": "189",
+      "line": "1785"
+    },
+    {
+      "name": "emu_simd_ext_hw",
+      "file": "189",
+      "line": "2832"
+    },
+    {
+      "name": "emu_simd_shift_hw",
+      "file": "189",
+      "line": "2779"
+    },
+    {
+      "name": "emu_simd_logical_hw",
+      "file": "189",
+      "line": "2515"
+    },
+    {
+      "name": "emu_simd_integer_3reg_hw",
+      "file": "189",
+      "line": "1943"
+    },
+    {
+      "name": "emu_simd_vector_3same_extra_hw",
+      "file": "189",
+      "line": "2064"
+    },
+    {
+      "name": "emu_simd_fp_compare_zero_hw",
+      "file": "189",
+      "line": "2905"
+    },
+    {
+      "name": "emu_simd_fp_reduce_hw",
+      "file": "189",
+      "line": "2725"
+    },
+    {
+      "name": "emu_fp_select_hw",
+      "file": "189",
+      "line": "1257"
+    },
+    {
+      "name": "emu_simd_materialize_bits_hw",
+      "file": "189",
+      "line": "1601"
+    },
+    {
+      "name": "emu_simd_permute_hw",
+      "file": "189",
+      "line": "2462"
+    },
+    {
+      "name": "emu_simd_fp_vector_3reg_feature_available",
+      "file": "189",
+      "line": "2581"
+    },
+    {
+      "name": "emu_simd_fp_vector_3reg_hw",
+      "file": "189",
+      "line": "2595"
+    },
+    {
+      "name": "emu_simd_current_cpu_has_faminmax",
+      "file": "189",
+      "line": "1661"
+    },
+    {
+      "name": "emu_simd_fhm_vector_hw",
+      "file": "189",
+      "line": "2343"
+    },
+    {
+      "name": "emu_simd_fcma_vector_hw",
+      "file": "189",
+      "line": "2418"
+    },
+    {
+      "name": "emu_simd_fp_vector_2reg_hw",
+      "file": "189",
+      "line": "2676"
+    },
+    {
+      "name": "emu_simd_rev_hw",
+      "file": "189",
+      "line": "2695"
+    },
+    {
+      "name": "emu_simd_fhm_by_element_hw",
+      "file": "189",
+      "line": "2362"
+    },
+    {
+      "name": "emu_simd_scalar_3same_hw",
+      "file": "189",
+      "line": "2187"
+    },
+    {
+      "name": "emu_simd_scalar_rdm_hw",
+      "file": "189",
+      "line": "2112"
+    },
+    {
+      "name": "emu_write_task_fpcr",
+      "file": "189",
+      "line": "114"
+    },
+    {
+      "name": "emu_dp_cls_hw",
+      "file": "189",
+      "line": "4558"
+    },
+    {
+      "name": "emu_dp_rev64_hw",
+      "file": "189",
+      "line": "4535"
+    },
+    {
+      "name": "emu_simd_read_scalar_hw",
+      "file": "189",
+      "line": "1435"
+    },
+    {
+      "name": "emu_simd_extract_signed_lane_hw",
+      "file": "189",
+      "line": "1336"
+    },
+    {
+      "name": "emu_simd_fcma_by_element_hw",
+      "file": "189",
+      "line": "2444"
+    },
+    {
+      "name": "emu_simd_current_cpu_has_f8cvt",
+      "file": "189",
+      "line": "1669"
+    },
+    {
+      "name": "reg_write",
+      "file": "189",
+      "line": "125"
+    },
+    {
+      "name": "emu_write_nzcv",
+      "file": "189",
+      "line": "234"
+    },
+    {
+      "name": "addr_reg_write",
+      "file": "189",
+      "line": "133"
+    },
+    {
+      "name": "emu_simd_dup_general_hw",
+      "file": "189",
+      "line": "1567"
+    },
+    {
+      "name": "emu_dp_rbit_hw",
+      "file": "189",
+      "line": "4490"
+    },
+    {
+      "name": "emu_dp_ctz_hw",
+      "file": "189",
+      "line": "4573"
+    },
+    {
+      "name": "emu_dp_clz_hw",
+      "file": "189",
+      "line": "4543"
+    },
+    {
+      "name": "emu_dp_count_bits_hw",
+      "file": "189",
+      "line": "4578"
+    },
+    {
+      "name": "emu_dp_rev32_hw",
+      "file": "189",
+      "line": "4520"
+    },
+    {
+      "name": "emu_dp_crc32b_hw",
+      "file": "189",
+      "line": "4610"
+    },
+    {
+      "name": "emu_dp_crc32h_hw",
+      "file": "189",
+      "line": "4618"
+    },
+    {
+      "name": "emu_dp_crc32w_hw",
+      "file": "189",
+      "line": "4626"
+    },
+    {
+      "name": "emu_dp_crc32x_hw",
+      "file": "189",
+      "line": "4634"
+    },
+    {
+      "name": "emu_dp_crc32cb_hw",
+      "file": "189",
+      "line": "4642"
+    },
+    {
+      "name": "emu_dp_crc32ch_hw",
+      "file": "189",
+      "line": "4650"
+    },
+    {
+      "name": "emu_dp_crc32cw_hw",
+      "file": "189",
+      "line": "4658"
+    },
+    {
+      "name": "emu_dp_crc32cx_hw",
+      "file": "189",
+      "line": "4666"
+    },
+    {
+      "name": "emu_simd_insert_general_hw",
+      "file": "189",
+      "line": "1385"
+    },
+    {
+      "name": "emu_simd_fp_by_element_hw",
+      "file": "189",
+      "line": "1525"
+    },
+    {
+      "name": "read_fpsr",
+      "file": "230",
+      "line": "148"
+    },
+    {
+      "name": "__ll_sc_atomic_sub_return",
+      "file": "225",
+      "line": "96"
+    },
+    {
+      "name": "down_read_trylock",
+      "file": "46",
+      "line": "228"
+    },
+    {
+      "name": "ktime_get",
+      "file": "229",
+      "line": "68"
+    },
+    {
+      "name": "__wake_up",
+      "file": "65",
+      "line": "210"
+    },
+    {
+      "name": "shadow_insn_touches_fpsimd",
+      "file": "0",
+      "line": "266"
+    },
+    {
+      "name": "shadow_allow_native_execution",
+      "file": "0",
+      "line": "923"
+    },
+    {
+      "name": "arm64_decode_insn",
+      "file": "0",
+      "line": "184"
+    },
+    {
+      "name": "arm64_decode_direct_target",
+      "file": "0",
+      "line": "262"
+    },
+    {
+      "name": "arm64_decode_memory_address",
+      "file": "0",
+      "line": "325"
+    },
+    {
+      "name": "shadow_emu_result_name",
+      "file": "0",
+      "line": "159"
+    },
+    {
+      "name": "brk_build_clone",
+      "file": "0",
+      "line": "790"
+    },
+    {
+      "name": "brk_sync_clone_tree",
+      "file": "0",
+      "line": "1219"
+    },
+    {
+      "name": "brk_user_break_handler",
+      "file": "0",
+      "line": "2529"
+    },
+    {
+      "name": "brk_bp_handle_hit",
+      "file": "0",
+      "line": "2269"
+    },
+    {
+      "name": "brk_log_entry_state",
+      "file": "0",
+      "line": "2216"
+    },
+    {
+      "name": "brk_mm_fault_ret",
+      "file": "0",
+      "line": "1929"
+    },
+    {
+      "name": "brk_call_all_cpus",
+      "file": "0",
+      "line": "551"
+    },
+    {
+      "name": "__alloc_pages_node_noprof",
+      "file": "188",
+      "line": "264"
+    },
+    {
+      "name": "alloc_pages_node_noprof",
+      "file": "188",
+      "line": "290"
+    },
+    {
+      "name": "alloc_pages_noprof",
+      "file": "188",
+      "line": "311"
+    },
+    {
+      "name": "brk_uninstall_mm_fault_kprobe",
+      "file": "0",
+      "line": "2005"
+    },
+    {
+      "name": "__alloc_pages_noprof",
+      "file": "188",
+      "line": "205"
+    },
+    {
+      "name": "__free_pages",
+      "file": "188",
+      "line": "371"
+    },
+    {
+      "name": "brk_cache_maintenance",
+      "file": "0",
+      "line": "698"
+    },
+    {
+      "name": "brk_install_debug_hook",
+      "file": "0",
+      "line": "2039"
+    },
+    {
+      "name": "brk_install_switch_hook",
+      "file": "0",
+      "line": "1818"
+    },
+    {
+      "name": "brk_quiesce_entry",
+      "file": "0",
+      "line": "1727"
+    },
+    {
+      "name": "brk_uninstall_switch_hook",
+      "file": "0",
+      "line": "1843"
+    },
+    {
+      "name": "unregister_kretprobe",
+      "file": "191",
+      "line": "411"
+    },
+    {
+      "name": "brk_uninstall_debug_hook",
+      "file": "0",
+      "line": "2060"
+    },
+    {
+      "name": "brk_destroy_entry",
+      "file": "0",
+      "line": "1772"
+    },
+    {
+      "name": "brk_resume_clone",
+      "file": "0",
+      "line": "1711"
+    },
+    {
+      "name": "brk_install_mm_fault_kprobe",
+      "file": "0",
+      "line": "1986"
+    },
+    {
+      "name": "brk_manual_clean_inval_pou",
+      "file": "0",
+      "line": "678"
+    },
+    {
+      "name": "brk_collect_current_path",
+      "file": "0",
+      "line": "1004"
+    },
+    {
+      "name": "brk_tbl_child",
+      "file": "0",
+      "line": "723"
+    },
+    {
+      "name": "brk_tbl_root",
+      "file": "0",
+      "line": "712"
+    },
+    {
+      "name": "brk_tbl_register",
+      "file": "0",
+      "line": "740"
+    },
+    {
+      "name": "brk_desc_addr_bits",
+      "file": "0",
+      "line": "120"
+    },
+    {
+      "name": "brk_break_contiguous_group_at_kva",
+      "file": "0",
+      "line": "985"
+    },
+    {
+      "name": "brk_slot_by_addr",
+      "file": "0",
+      "line": "763"
+    },
+    {
+      "name": "brk_sync_tbl_leaf",
+      "file": "0",
+      "line": "1153"
+    },
+    {
+      "name": "bitmap_zero",
+      "file": "221",
+      "line": "231"
+    },
+    {
+      "name": "generic___set_bit",
+      "file": "202",
+      "line": "28"
+    },
+    {
+      "name": "brk_flush_tlb_leaf_window",
+      "file": "0",
+      "line": "467"
+    },
+    {
+      "name": "brk_flush_tlb_group",
+      "file": "0",
+      "line": "435"
+    },
+    {
+      "name": "brk_sync_tbl_node",
+      "file": "0",
+      "line": "1113"
+    },
+    {
+      "name": "register_kretprobe",
+      "file": "191",
+      "line": "410"
+    },
+    {
+      "name": "brk_entry_first_addr",
+      "file": "0",
+      "line": "341"
+    },
+    {
+      "name": "brk_pause_clone",
+      "file": "0",
+      "line": "1686"
+    },
+    {
+      "name": "brk_quiesce_final_restore",
+      "file": "0",
+      "line": "1766"
+    },
+    {
+      "name": "list_is_singular",
+      "file": "204",
+      "line": "449"
+    },
+    {
+      "name": "list_del_init",
+      "file": "204",
+      "line": "285"
+    },
+    {
+      "name": "brk_bp_clear_all",
+      "file": "0",
+      "line": "3679"
+    },
+    {
+      "name": "brk_alloc_hit_scratch",
+      "file": "0",
+      "line": "290"
+    },
+    {
+      "name": "schedule_delayed_work",
+      "file": "76",
+      "line": "820"
+    },
+    {
+      "name": "queue_delayed_work",
+      "file": "76",
+      "line": "679"
+    },
+    {
+      "name": "init_timer_key",
+      "file": "224",
+      "line": "70"
+    },
+    {
+      "name": "queue_delayed_work_on",
+      "file": "76",
+      "line": "596"
+    },
+    {
+      "name": "brk_fault_sync_missed",
+      "file": "0",
+      "line": "2021"
+    },
+    {
+      "name": "brk_ttbr0_is_clone",
+      "file": "0",
+      "line": "533"
+    },
+    {
+      "name": "brk_verify_real_world",
+      "file": "0",
+      "line": "1362"
+    },
+    {
+      "name": "brk_heartbeat_fn",
+      "file": "0",
+      "line": "356"
+    },
+    {
+      "name": "brk_free_hit_scratch",
+      "file": "0",
+      "line": "313"
+    },
+    {
+      "name": "cancel_delayed_work_sync",
+      "file": "76",
+      "line": "615"
+    },
+    {
+      "name": "system_supports_sve",
+      "file": "232",
+      "line": "755"
+    },
+    {
+      "name": "brk_task_in_sve",
+      "file": "0",
+      "line": "2081"
+    },
+    {
+      "name": "brk_sve_vl_bytes",
+      "file": "0",
+      "line": "2093"
+    },
+    {
+      "name": "brk_valid_user_pc",
+      "file": "0",
+      "line": "2187"
+    },
+    {
+      "name": "brk_apply_fp_overrides",
+      "file": "0",
+      "line": "2120"
+    },
+    {
+      "name": "brk_sync_fpsimd_to_sve",
+      "file": "0",
+      "line": "2103"
+    },
+    {
+      "name": "brk_insn_uses_user_memory",
+      "file": "0",
+      "line": "2197"
+    },
+    {
+      "name": "brk_insn_touches_fpsimd",
+      "file": "0",
+      "line": "2143"
+    },
+    {
+      "name": "brk_write_ttbr0",
+      "file": "0",
+      "line": "664"
+    },
+    {
+      "name": "brk_disable_emulation",
+      "file": "0",
+      "line": "2233"
+    },
+    {
+      "name": "brk_ttbr0_template",
+      "file": "0",
+      "line": "592"
+    },
+    {
+      "name": "brk_system_uses_ttbr0_pan",
+      "file": "0",
+      "line": "581"
+    },
+    {
+      "name": "brk_make_ttbr",
+      "file": "0",
+      "line": "482"
+    },
+    {
+      "name": "brk_write_ttbr0_value",
+      "file": "0",
+      "line": "616"
+    },
+    {
+      "name": "brk_flush_tlb_asid",
+      "file": "0",
+      "line": "456"
+    },
+    {
+      "name": "brk_save_task_ttbr0",
+      "file": "0",
+      "line": "606"
+    },
+    {
+      "name": "brk_mark_clone_cpu",
+      "file": "0",
+      "line": "499"
+    },
+    {
+      "name": "arch_atomic64_or",
+      "file": "228",
+      "line": "65"
+    },
+    {
+      "name": "raw_atomic64_or",
+      "file": "207",
+      "line": "3796"
+    },
+    {
+      "name": "raw_atomic_long_or",
+      "file": "23",
+      "line": "1066"
+    },
+    {
+      "name": "arch_set_bit",
+      "file": "233",
+      "line": "15"
+    },
+    {
+      "name": "set_bit",
+      "file": "234",
+      "line": "26"
+    },
+    {
+      "name": "cpumask_set_cpu",
+      "file": "235",
+      "line": "517"
+    },
+    {
+      "name": "__lse_atomic64_or",
+      "file": "227",
+      "line": "132"
+    },
+    {
+      "name": "arch_clear_bit",
+      "file": "233",
+      "line": "22"
+    },
+    {
+      "name": "clear_bit",
+      "file": "234",
+      "line": "39"
+    },
+    {
+      "name": "cpumask_clear_cpu",
+      "file": "235",
+      "line": "534"
+    },
+    {
+      "name": "arch_atomic64_andnot",
+      "file": "228",
+      "line": "64"
+    },
+    {
+      "name": "raw_atomic64_andnot",
+      "file": "207",
+      "line": "3672"
+    },
+    {
+      "name": "raw_atomic_long_andnot",
+      "file": "23",
+      "line": "961"
+    },
+    {
+      "name": "__lse_atomic64_andnot",
+      "file": "227",
+      "line": "131"
+    },
+    {
+      "name": "cpumask_test_cpu",
+      "file": "235",
+      "line": "568"
+    },
+    {
+      "name": "__ll_sc_atomic64_andnot",
+      "file": "225",
+      "line": "210"
+    },
+    {
+      "name": "__ll_sc_atomic64_or",
+      "file": "225",
+      "line": "203"
+    },
+    {
+      "name": "brk_switch_to_handle",
+      "file": "0",
+      "line": "1436"
+    },
+    {
+      "name": "list_is_head",
+      "file": "204",
+      "line": "362"
+    },
+    {
+      "name": "brk_switch_to_hook",
+      "file": "0",
+      "line": "1611"
+    },
+    {
+      "name": "brk_mm_fault_entry",
+      "file": "0",
+      "line": "1886"
+    },
+    {
+      "name": "brk_restore_ttbr0_cb",
+      "file": "0",
+      "line": "1627"
+    },
+    {
+      "name": "arm64_decode_finish",
+      "file": "0",
+      "line": "178"
+    },
+    {
+      "name": "arm64_decode_effects",
+      "file": "0",
+      "line": "11"
+    },
+    {
+      "name": "arm64_decode_sve",
+      "file": "0",
+      "line": "4"
+    },
+    {
+      "name": "arm64_decode_branch",
+      "file": "0",
+      "line": "28"
+    },
+    {
+      "name": "arm64_decode_simd",
+      "file": "0",
+      "line": "1143"
+    },
+    {
+      "name": "arm64_decode_data_processing_register",
+      "file": "0",
+      "line": "265"
+    },
+    {
+      "name": "arm64_decode_data_processing_immediate",
+      "file": "0",
+      "line": "165"
+    },
+    {
+      "name": "arm64_decode_ldst",
+      "file": "0",
+      "line": "394"
+    },
+    {
+      "name": "arm64_decode_sme",
+      "file": "0",
+      "line": "4"
+    },
+    {
+      "name": "arm64_decode_insn_has_effect",
+      "file": "0",
+      "line": "253"
+    },
+    {
+      "name": "arm64_decode_extend_index",
+      "file": "0",
+      "line": "297"
+    },
+    {
+      "name": "arm64_decode_base_registers",
+      "file": "0",
+      "line": "10"
+    },
+    {
+      "name": "arm64_decode_add_sub_operation",
+      "file": "0",
+      "line": "20"
+    },
+    {
+      "name": "arm64_decode_logical_operation",
+      "file": "0",
+      "line": "25"
+    },
+    {
+      "name": "arm64_decode_bit_masks",
+      "file": "0",
+      "line": "65"
+    },
+    {
+      "name": "arm64_low_mask",
+      "file": "0",
+      "line": "40"
+    },
+    {
+      "name": "arm64_ror_element",
+      "file": "0",
+      "line": "45"
+    },
+    {
+      "name": "arm64_replicate",
+      "file": "0",
+      "line": "55"
+    },
+    {
+      "name": "arm64_decode_2source_operation",
+      "file": "0",
+      "line": "92"
+    },
+    {
+      "name": "arm64_decode_1source_operation",
+      "file": "0",
+      "line": "137"
+    },
+    {
+      "name": "arm64_decode_sysreg",
+      "file": "0",
+      "line": "15"
+    },
+    {
+      "name": "arm64_sign_extend",
+      "file": "0",
+      "line": "3"
+    },
+    {
+      "name": "arm64_decode_ldst_literal",
+      "file": "0",
+      "line": "138"
+    },
+    {
+      "name": "arm64_decode_ldst_registers",
+      "file": "0",
+      "line": "10"
+    },
+    {
+      "name": "arm64_decode_ldst_fp_flag",
+      "file": "0",
+      "line": "19"
+    },
+    {
+      "name": "arm64_classify_ldst_single",
+      "file": "0",
+      "line": "242"
+    },
+    {
+      "name": "arm64_decode_ldst_single",
+      "file": "0",
+      "line": "369"
+    },
+    {
+      "name": "arm64_decode_ldst_exclusive",
+      "file": "0",
+      "line": "67"
+    },
+    {
+      "name": "arm64_decode_ldst_special",
+      "file": "0",
+      "line": "156"
+    },
+    {
+      "name": "arm64_decode_ldst_pair",
+      "file": "0",
+      "line": "207"
+    },
+    {
+      "name": "arm64_decode_ldst_single_regular",
+      "file": "0",
+      "line": "324"
+    },
+    {
+      "name": "arm64_classify_ldst_atomic",
+      "file": "0",
+      "line": "257"
+    },
+    {
+      "name": "arm64_decode_ldst_atomic",
+      "file": "0",
+      "line": "288"
+    },
+    {
+      "name": "arm64_decode_atomic_operation",
+      "file": "0",
+      "line": "24"
+    },
+    {
+      "name": "arm64_simd_decode_conversion",
+      "file": "0",
+      "line": "886"
+    },
+    {
+      "name": "arm64_decode_simd_registers",
+      "file": "0",
+      "line": "3"
+    },
+    {
+      "name": "arm64_simd_scalar_fp_width",
+      "file": "0",
+      "line": "33"
+    },
+    {
+      "name": "arm64_simd_expand_fp_imm",
+      "file": "0",
+      "line": "11"
+    },
+    {
+      "name": "arm64_simd_decode_modified_immediate",
+      "file": "0",
+      "line": "94"
+    },
+    {
+      "name": "arm64_simd_expand_modified_imm",
+      "file": "0",
+      "line": "44"
+    },
+    {
+      "name": "arm64_simd_decode_scalar_copy",
+      "file": "0",
+      "line": "180"
+    },
+    {
+      "name": "arm64_simd_decode_copy",
+      "file": "0",
+      "line": "123"
+    },
+    {
+      "name": "arm64_simd_decode_permute",
+      "file": "0",
+      "line": "396"
+    },
+    {
+      "name": "arm64_simd_is_by_element",
+      "file": "0",
+      "line": "197"
+    },
+    {
+      "name": "arm64_simd_is_shift_immediate",
+      "file": "0",
+      "line": "854"
+    },
+    {
+      "name": "arm64_simd_decode_complex_vector",
+      "file": "0",
+      "line": "372"
+    },
+    {
+      "name": "arm64_simd_decode_vector_3same_extra",
+      "file": "0",
+      "line": "543"
+    },
+    {
+      "name": "arm64_simd_decode_vector_3same",
+      "file": "0",
+      "line": "633"
+    },
+    {
+      "name": "arm64_simd_decode_scalar_3same",
+      "file": "0",
+      "line": "715"
+    },
+    {
+      "name": "arm64_simd_decode_by_element",
+      "file": "0",
+      "line": "288"
+    },
+    {
+      "name": "arm64_simd_decode_shift_immediate",
+      "file": "0",
+      "line": "859"
+    },
+    {
+      "name": "arm64_simd_decode_fp_compare_zero",
+      "file": "0",
+      "line": "794"
+    },
+    {
+      "name": "arm64_simd_decode_fp_vector_2reg",
+      "file": "0",
+      "line": "1022"
+    },
+    {
+      "name": "arm64_simd_decode_rev",
+      "file": "0",
+      "line": "1056"
+    },
+    {
+      "name": "arm64_simd_decode_fp_reduce",
+      "file": "0",
+      "line": "1084"
+    },
+    {
+      "name": "arm64_simd_decode_integer_3same_operation",
+      "file": "0",
+      "line": "435"
+    },
+    {
+      "name": "arm64_simd_decode_fp_3same_operation",
+      "file": "0",
+      "line": "489"
+    },
+    {
+      "name": "arm64_simd_is_scalar_fp_3same_operation",
+      "file": "0",
+      "line": "524"
+    },
+    {
+      "name": "arm64_simd_decode_extra_by_element",
+      "file": "0",
+      "line": "210"
+    }
+  ],
+  "structs": [
+    "module_state",
+    "trace_reg",
+    "print_line_t",
+    "bpf_prog_type",
+    "bpf_attach_type",
+    "bpf_reg_type",
+    "memory_type",
+    "hrtimer_restart",
+    "timespec_type",
+    "ctl_table_header",
+    "ctl_table",
+    "ctl_table_poll",
+    "wait_queue_head",
+    "spinlock",
+    "raw_spinlock",
+    "qspinlock",
+    "list_head",
+    "callback_head",
+    "completion",
+    "swait_queue_head",
+    "ctl_table_root",
+    "ctl_table_set",
+    "ctl_dir",
+    "rb_root",
+    "rb_node",
+    "ctl_node",
+    "hlist_head",
+    "hlist_node",
+    "probe_type",
+    "dl_dev_state",
+    "rpm_request",
+    "rpm_status",
+    "dev_dma_attr",
+    "kobj_ns_type",
+    "device_physical_location_panel",
+    "device_physical_location_vertical_position",
+    "device_physical_location_horizontal_position",
+    "device_removable",
+    "blocked_on_state",
+    "rw_hint",
+    "zone_type",
+    "uprobe_task_state",
+    "fp_type",
+    "perf_event_state",
+    "fault_flag",
+    "pid_type",
+    "bpf_cgroup_iter_order",
+    "bpf_iter_task_type",
+    "bpf_map_type",
+    "btf_field_type",
+    "class_map_type",
+    "writeback_sync_modes",
+    "wb_reason",
+    "freeze_holder",
+    "quota_type",
+    "d_real_type",
+    "migrate_mode",
+    "kobject",
+    "kset",
+    "kset_uevent_ops",
+    "kobj_uevent_env",
+    "kobj_type",
+    "sysfs_ops",
+    "attribute",
+    "attribute_group",
+    "bin_attribute",
+    "address_space",
+    "inode",
+    "posix_acl",
+    "inode_operations",
+    "dentry",
+    "seqcount_spinlock",
+    "seqcount",
+    "hlist_bl_node",
+    "qstr",
+    "dentry_operations",
+    "vfsmount",
+    "super_block",
+    "file_system_type",
+    "fs_context",
+    "fs_parameter_spec",
+    "module",
+    "module_kobject",
+    "module_param_attrs",
+    "module_attribute",
+    "kernel_symbol",
+    "mutex",
+    "optimistic_spin_queue",
+    "kernel_param",
+    "kernel_param_ops",
+    "kparam_string",
+    "kparam_array",
+    "exception_table_entry",
+    "module_memory",
+    "mod_tree_node",
+    "latch_tree_node",
+    "mod_arch_specific",
+    "mod_plt_sec",
+    "plt_entry",
+    "pkvm_el2_module",
+    "pkvm_module_section",
+    "hyp_event",
+    "hyp_printk_fmt",
+    "pkvm_module_ops",
+    "bug_entry",
+    "mod_kallsyms",
+    "elf64_sym",
+    "module_sect_attrs",
+    "module_notes_attrs",
+    "srcu_struct",
+    "srcu_data",
+    "rcu_segcblist",
+    "timer_list",
+    "work_struct",
+    "srcu_node",
+    "lockdep_map",
+    "srcu_usage",
+    "delayed_work",
+    "workqueue_struct",
+    "bpf_raw_event_map",
+    "tracepoint",
+    "static_key",
+    "jump_entry",
+    "static_key_mod",
+    "static_call_key",
+    "tracepoint_func",
+    "trace_event_call",
+    "trace_event_class",
+    "trace_event_fields",
+    "trace_event",
+    "trace_event_functions",
+    "trace_iterator",
+    "trace_array",
+    "tracer",
+    "array_buffer",
+    "ring_buffer_iter",
+    "trace_seq",
+    "seq_buf",
+    "cpumask",
+    "trace_entry",
+    "event_filter",
+    "bpf_prog_array",
+    "bpf_prog_array_item",
+    "bpf_prog",
+    "bpf_prog_stats",
+    "bpf_insn",
+    "bpf_prog_aux",
+    "btf",
+    "bpf_ctx_arg_aux",
+    "bpf_trampoline",
+    "ftrace_ops",
+    "refcount_struct",
+    "btf_func_model",
+    "bpf_tramp_image",
+    "bpf_ksym",
+    "percpu_ref",
+    "percpu_ref_data",
+    "bpf_arena",
+    "btf_type",
+    "bpf_jit_poke_descriptor",
+    "bpf_map",
+    "bpf_map_ops",
+    "bpf_attr",
+    "file",
+    "file_operations",
+    "kiocb",
+    "wait_page_queue",
+    "iov_iter",
+    "iovec",
+    "kvec",
+    "bio_vec",
+    "page",
+    "page_pool",
+    "dev_pagemap",
+    "vmem_altmap",
+    "dev_pagemap_ops",
+    "vm_fault",
+    "vm_area_struct",
+    "mm_struct",
+    "maple_tree",
+    "rw_semaphore",
+    "rcuwait",
+    "task_struct",
+    "thread_info",
+    "alloc_tag",
+    "codetag",
+    "alloc_tag_counters",
+    "__call_single_node",
+    "llist_node",
+    "sched_entity",
+    "load_weight",
+    "cfs_rq",
+    "sched_avg",
+    "sched_rt_entity",
+    "sched_dl_entity",
+    "hrtimer",
+    "timerqueue_node",
+    "hrtimer_clock_base",
+    "hrtimer_cpu_base",
+    "__call_single_data",
+    "seqcount_raw_spinlock",
+    "timerqueue_head",
+    "rb_root_cached",
+    "rq",
+    "sched_ext_entity",
+    "scx_dispatch_q",
+    "rhash_head",
+    "scx_dsq_list_node",
+    "cgroup",
+    "cgroup_subsys_state",
+    "cgroup_subsys",
+    "seq_file",
+    "seq_operations",
+    "cgroup_taskset",
+    "css_set",
+    "cgroup_root",
+    "kernfs_root",
+    "idr",
+    "xarray",
+    "cftype",
+    "kernfs_ops",
+    "kernfs_open_file",
+    "kernfs_node",
+    "kernfs_elem_dir",
+    "kernfs_elem_symlink",
+    "kernfs_elem_attr",
+    "kernfs_open_node",
+    "kernfs_iattrs",
+    "vm_operations_struct",
+    "poll_table_struct",
+    "lock_class_key",
+    "rcu_work",
+    "cgroup_file",
+    "cgroup_rstat_cpu",
+    "u64_stats_sync",
+    "cgroup_base_stat",
+    "task_cputime",
+    "cacheline_padding",
+    "prev_cputime",
+    "psi_group",
+    "psi_group_cpu",
+    "cgroup_bpf",
+    "cgroup_freezer_state",
+    "bpf_local_storage",
+    "cgroup_kmi_ext_info",
+    "sched_class",
+    "task_group",
+    "uclamp_se",
+    "sched_statistics",
+    "rcu_special",
+    "rcu_node",
+    "sched_info",
+    "plist_node",
+    "restart_block",
+    "__kernel_timespec",
+    "old_timespec32",
+    "pollfd",
+    "pid",
+    "upid",
+    "pid_namespace",
+    "kmem_cache",
+    "user_namespace",
+    "uid_gid_map",
+    "uid_gid_extent",
+    "ns_common",
+    "proc_ns_operations",
+    "key",
+    "key_user",
+    "keyring_index_key",
+    "key_type",
+    "key_tag",
+    "key_payload",
+    "assoc_array",
+    "assoc_array_ptr",
+    "key_restriction",
+    "ucounts",
+    "binfmt_misc",
+    "posix_cputimers",
+    "posix_cputimer_base",
+    "posix_cputimers_work",
+    "cred",
+    "user_struct",
+    "percpu_counter",
+    "ratelimit_state",
+    "group_info",
+    "nameidata",
+    "fs_struct",
+    "files_struct",
+    "io_uring_task",
+    "nsproxy",
+    "uts_namespace",
+    "ipc_namespace",
+    "mnt_namespace",
+    "net",
+    "time_namespace",
+    "cgroup_namespace",
+    "signal_struct",
+    "sigpending",
+    "core_state",
+    "core_thread",
+    "cpu_itimer",
+    "thread_group_cputimer",
+    "task_cputime_atomic",
+    "tty_struct",
+    "kref",
+    "device",
+    "device_private",
+    "device_type",
+    "dev_pm_ops",
+    "bus_type",
+    "device_driver",
+    "of_device_id",
+    "acpi_device_id",
+    "pm_message",
+    "driver_private",
+    "dev_links_info",
+    "dev_pm_info",
+    "wakeup_source",
+    "wake_irq",
+    "pm_subsys_data",
+    "pm_domain_data",
+    "dev_pm_qos",
+    "dev_pm_domain",
+    "em_perf_domain",
+    "em_perf_table",
+    "em_perf_state",
+    "dev_pin_info",
+    "dev_msi_info",
+    "irq_domain",
+    "msi_device_data",
+    "dma_map_ops",
+    "bus_dma_region",
+    "device_dma_parameters",
+    "dma_coherent_mem",
+    "cma",
+    "io_tlb_mem",
+    "dev_archdata",
+    "device_node",
+    "fwnode_handle",
+    "fwnode_operations",
+    "fwnode_reference_args",
+    "fwnode_endpoint",
+    "class",
+    "kobj_ns_type_operations",
+    "sock",
+    "iommu_group",
+    "dev_iommu",
+    "device_physical_location",
+    "tty_driver",
+    "cdev",
+    "ktermios",
+    "proc_dir_entry",
+    "tty_port",
+    "tty_bufhead",
+    "tty_buffer",
+    "llist_head",
+    "tty_port_operations",
+    "tty_port_client_operations",
+    "__kfifo",
+    "tty_operations",
+    "winsize",
+    "serial_icounter_struct",
+    "serial_struct",
+    "tty_ldisc",
+    "tty_ldisc_ops",
+    "ld_semaphore",
+    "fasync_struct",
+    "qrwlock",
+    "task_io_accounting",
+    "rlimit",
+    "taskstats",
+    "tty_audit_buf",
+    "sighand_struct",
+    "k_sigaction",
+    "sigaction",
+    "audit_context",
+    "seccomp",
+    "seccomp_filter",
+    "syscall_user_dispatch",
+    "wake_q_node",
+    "rt_mutex_waiter",
+    "bio_list",
+    "bio",
+    "block_device",
+    "gendisk",
+    "request_queue",
+    "disk_stats",
+    "blk_holder_ops",
+    "partition_meta_info",
+    "bvec_iter",
+    "blkcg_gq",
+    "bio_issue",
+    "bio_crypt_ctx",
+    "bio_set",
+    "bio_alloc_cache",
+    "mempool_s",
+    "blk_plug",
+    "reclaim_state",
+    "io_context",
+    "io_cq",
+    "capture_control",
+    "kernel_siginfo",
+    "__sifields",
+    "sigval",
+    "robust_list_head",
+    "compat_robust_list_head",
+    "compat_robust_list",
+    "futex_pi_state",
+    "perf_event_context",
+    "perf_event_groups",
+    "tlbflush_unmap_batch",
+    "arch_tlbflush_unmap_batch",
+    "pipe_inode_info",
+    "page_frag",
+    "task_delay_info",
+    "kunit",
+    "mem_cgroup",
+    "mem_cgroup_id",
+    "page_counter",
+    "vmpressure",
+    "memcg_vmstats",
+    "obj_cgroup",
+    "memcg_vmstats_percpu",
+    "wb_domain",
+    "fprop_global",
+    "memcg_cgwb_frn",
+    "wb_completion",
+    "deferred_split",
+    "lru_gen_mm_list",
+    "memcg1_events_percpu",
+    "mem_cgroup_thresholds",
+    "mem_cgroup_threshold_ary",
+    "mem_cgroup_threshold",
+    "eventfd_ctx",
+    "mem_cgroup_per_node",
+    "lruvec_stats_percpu",
+    "lruvec_stats",
+    "shrinker_info",
+    "shrinker_info_unit",
+    "lruvec",
+    "lru_gen_folio",
+    "hlist_nulls_node",
+    "lru_gen_mm_state",
+    "pglist_data",
+    "zone",
+    "per_cpu_pages",
+    "per_cpu_zonestat",
+    "free_area",
+    "zonelist",
+    "zoneref",
+    "lru_gen_mm_walk",
+    "lru_gen_memcg",
+    "hlist_nulls_head",
+    "per_cpu_nodestat",
+    "zswap_lruvec_state",
+    "mem_cgroup_reclaim_iter",
+    "uprobe_task",
+    "arch_uprobe_task",
+    "uprobe",
+    "arch_uprobe",
+    "arch_probe_insn",
+    "pt_regs",
+    "user_pt_regs",
+    "return_instance",
+    "kmap_ctrl",
+    "vm_struct",
+    "bpf_run_ctx",
+    "bpf_net_context",
+    "thread_struct",
+    "cpu_context",
+    "user_fpsimd_state",
+    "debug_info",
+    "perf_event",
+    "pmu",
+    "perf_cpu_pmu_context",
+    "perf_event_pmu_context",
+    "perf_output_handle",
+    "perf_buffer",
+    "perf_event_attr",
+    "hw_perf_event",
+    "hw_perf_event_extra",
+    "arch_hw_breakpoint",
+    "arch_hw_breakpoint_ctrl",
+    "rhlist_head",
+    "irq_work",
+    "perf_addr_filters_head",
+    "perf_addr_filter_range",
+    "perf_sample_data",
+    "perf_callchain_entry",
+    "perf_raw_record",
+    "perf_raw_frag",
+    "perf_branch_stack",
+    "perf_branch_entry",
+    "perf_sample_weight",
+    "perf_mem_data_src",
+    "perf_regs",
+    "ptrauth_keys_user",
+    "ptrauth_key",
+    "ptrauth_keys_kernel",
+    "linux_binfmt",
+    "kioctx_table",
+    "mmu_notifier_subscriptions",
+    "uprobes_state",
+    "xol_area",
+    "anon_vma",
+    "anon_vma_name",
+    "vm_userfaultfd_ctx",
+    "userfaultfd_ctx",
+    "range",
+    "folio_queue",
+    "io_comp_batch",
+    "dir_context",
+    "file_lock",
+    "file_lease",
+    "io_uring_cmd",
+    "path",
+    "fown_struct",
+    "file_ra_state",
+    "bpf_local_storage_map",
+    "bpf_verifier_env",
+    "bpf_func_state",
+    "bpf_iter_seq_info",
+    "bpf_iter_aux_info",
+    "btf_record",
+    "btf_field",
+    "btf_field_kptr",
+    "btf_field_graph_root",
+    "bpf_kfunc_desc_tab",
+    "bpf_kfunc_btf_tab",
+    "bpf_prog_ops",
+    "btf_mod_pair",
+    "bpf_token",
+    "bpf_prog_offload",
+    "net_device",
+    "bpf_offload_dev",
+    "bpf_func_info",
+    "bpf_func_info_aux",
+    "bpf_line_info",
+    "sock_fprog_kern",
+    "sock_filter",
+    "bpf_cgroup_storage",
+    "trace_eval_map",
+    "kunit_suite",
+    "_ddebug_info",
+    "_ddebug",
+    "static_key_true",
+    "static_key_false",
+    "ddebug_class_map",
+    "super_operations",
+    "writeback_control",
+    "swap_iocb",
+    "folio_batch",
+    "folio",
+    "bdi_writeback",
+    "backing_dev_info",
+    "fprop_local_percpu",
+    "kstatfs",
+    "dquot",
+    "kqid",
+    "mem_dqblk",
+    "shrink_control",
+    "dquot_operations",
+    "quotactl_ops",
+    "qc_info",
+    "qc_dqblk",
+    "qc_state",
+    "qc_type_state",
+    "export_operations",
+    "xattr_handler",
+    "fscrypt_operations",
+    "fscrypt_keyring",
+    "fsverity_operations",
+    "unicode_map",
+    "hlist_bl_head",
+    "mtd_info",
+    "quota_info",
+    "mem_dqinfo",
+    "quota_format_type",
+    "quota_format_ops",
+    "sb_writers",
+    "percpu_rw_semaphore",
+    "rcu_sync",
+    "fsnotify_sb_info",
+    "shrinker",
+    "list_lru",
+    "list_lru_node",
+    "list_lru_one",
+    "mnt_idmap",
+    "lockref",
+    "delayed_call",
+    "iattr",
+    "timespec64",
+    "kstat",
+    "fiemap_extent_info",
+    "fileattr",
+    "offset_ctx",
+    "file_lock_context",
+    "fsnotify_mark_connector",
+    "fscrypt_inode_info",
+    "fsverity_info",
+    "address_space_operations",
+    "readahead_control",
+    "swap_info_struct",
+    "cfi_patch_rec",
+    "kprobe",
+    "arch_specific_insn",
+    "memory_translate_mode",
+    "kmalloc_cache_type",
+    "fortify_func",
+    "mem_section_usage",
+    "manual_walk_cache",
+    "mem_section",
+    "page_ext",
+    "paradise_gyro_state",
+    "paradise_gyro_config_cmd",
+    "ASensorEvent_kernel",
+    "kp_core_hook",
+    "kgsl_driver",
+    "kgsl_device",
+    "_BRK_MEMWRITE_ARGS",
+    "_COPY_MEMORY",
+    "_MODULE_BASE",
+    "hwbp_tracking_data",
+    "step_hook",
+    "refcount_saturation_type",
+    "perf_type_id",
+    "hw_bp_context",
+    "HWBP_HIT_ITEM",
+    "my_user_pt_regs",
+    "hw_bp_apply_cfg",
+    "_HW_BP_INFO",
+    "_HWBP_HIT_ARGS",
+    "_HWBP_UPDATE_ARGS",
+    "_HWBP_REG_CONFIG",
+    "spoof_entry",
+    "kernel_iovec",
+    "kernfs_node_type",
+    "emu_insn_result",
+    "arm64_decode_status",
+    "arm64_insn_class",
+    "arm64_opcode",
+    "arm64_operation",
+    "arm64_system_operation",
+    "arm64_address_mode",
+    "arm64_simd_form",
+    "arm64_simd_operation",
+    "arm64_fp_rounding_mode",
+    "emu_narrow_op",
+    "emu_reduce_op",
+    "emu_narrow_shift_op",
+    "emu_simd_cpu_feature",
+    "arm64_simd_rotation",
+    "shadow_entry",
+    "ptdesc",
+    "wait_queue_entry",
+    "emu_mem_access",
+    "arm64_decoded_insn",
+    "arm64_branch_operands",
+    "arm64_pc_relative_operands",
+    "arm64_system_operands",
+    "arm64_data_operands",
+    "arm64_load_store_operands",
+    "arm64_simd_operands",
+    "arm64_memory_address",
+    "shadow_fault_config",
+    "break_hook",
+    "brk_hit_scratch",
+    "kretprobe",
+    "kretprobe_instance",
+    "kretprobe_holder",
+    "objpool_head",
+    "objpool_slot",
+    "work_bits",
+    "node_states",
+    "wq_misc_consts",
+    "brk_bp_entry",
+    "brk_bp_tbl",
+    "brk_bp_slot",
+    "brk_fault_capture",
+    "brk_bp_cfg",
+    "arm64_ldst_major",
+    "arm64_ldst_single_form",
+    "arm64_ldst_atomic_leaf",
+    "modversion_info",
+    "elf32_note"
+  ]
+}
