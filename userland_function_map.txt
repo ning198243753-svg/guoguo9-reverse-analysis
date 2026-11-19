@@ -1,0 +1,691 @@
+// 用户态核心：所有带字符串引用的函数（按引用数排序）
+// 由于OLLVM混淆，字符串常被集中到少数函数，函数边界内有大量控制流平坦化
+
+
+0x4564ac (1690 refs):
+   "%d.%d.%d.%d"
+   "223.5.5.5"
+   "%lu"
+   "POST /%s HTTP/1.1"
+   "Host lookup failed"
+   "Connection failed"
+   "Content-Length: "
+   "c_host/mmc0/mmc0:0001/cid"
+   "7824900.sdhci/mmc_host/mmc0/mmc0:0001/cid"
+   "null"
+   "false"
+   "true"
+   "/sdcard/"
+   "%02x"
+   "eypad7"
+
+0x902a10 (35 refs):
+   "unsigned long long"
+   "void"
+   "..."
+   "__int128"
+   "al:"
+   "ject_accel_mb:"
+   "unsigned long"
+   "float"
+   "bool"
+   "wchar_t"
+   "double"
+   "__float128"
+   "long"
+   "unsigned __int128"
+   "int"
+
+0x91cc64 (25 refs):
+   "yPool"
+   "RKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurseESU_SA_bEUlRKNS_5rangeI"
+   "libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range"
+   "libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_register DWARF unwind, reg too big"
+   "libunwind: malformed DW_CFA_expression DWARF unwind, reg too big"
+
+0x909494 (17 refs):
+   "seE"
+   "d Linux (aarch64 / arm64)"
+   "short"
+   "_ndk18messagesIwEE"
+   "ndk18messagesIwEE"
+   "nullptr"
+   "ull"
+   "unsigned short"
+   "signed char"
+   "unsigned char"
+   "b1E"
+   "char"
+   "ssagesIwEE"
+   "sagesIwEE"
+   "unsigned __int128"
+
+0x8e0e14 (13 refs):
+   "a+be"
+   "a+e"
+   "wxe"
+   "wbe"
+   "abe"
+   "wbxe"
+   "w+bxe"
+   "w+xe"
+   "r+e"
+   "rbe"
+   "r+be"
+   "w+be"
+   "w+e"
+
+0x9017c4 (13 refs):
+   "pported"
+   "rfaces cleared"
+   ":0001/cid"
+   " cancelled"
+   " pointer encoding not supported"
+   "failed"
+   "_handler unexpectedly returned"
+   "tion failed"
+   "_init failed"
+   "in failed"
+   "invocation function for block in "
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/cxa_demangle.cpp"
+
+0x901ebc (11 refs):
+   "guard variable for "
+   " Linux (aarch64 / arm64)"
+   "d Linux (aarch64 / arm64)"
+   "/android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+   "initializer for module "
+   " 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d"
+   "thread-local wrapper routine for "
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h"
+   "shrinkToSize() can't expand!"
+   "signed int"
+
+0x91bdd0 (10 refs):
+   "CIE ID is not zero"
+   "CIE version is not 1 or 3"
+   "libunwind: %s - %s"
+   "getSLEB128"
+   "truncated sleb128 expression"
+   "error in ISA selection for BVH4SubdivPatch1Intersector8"
+   "or BVH4SubdivPatch1Intersector8"
+   "ection for BVH4SubdivPatch1Intersector8"
+   " ISA selection for BVH4SubdivPatch1Intersector8"
+   "ubdivPatch1Intersector8"
+
+0x91e074 (10 refs):
+   "libunwind: %s - %s"
+   "getSLEB128"
+   "truncated sleb128 expression"
+   "getRegister"
+   "unsupported arm64 register"
+   "evaluateExpression"
+   "DWARF opcode not implemented"
+   "DW_OP_piece not implemented"
+   "DW_OP_fbreg not implemented"
+   "DW_OP_deref_size with bad size"
+
+0x91f568 (10 refs):
+   ".std.450"
+   "aColor"
+   "aUV"
+   "erVertex"
+   "gl_Position"
+   "ion"
+   "aPos"
+   "uPushConstant"
+   "stant"
+   "uTranslate"
+
+0x91407c (9 refs):
+   "basic_string"
+   "basic_ostream"
+   "allocator"
+   "basic_istream"
+   "basic_iostream"
+   "i_impl_vulkan"
+   "cel"
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h"
+
+0x914318 (9 refs):
+   "ui_impl_vulkan"
+   "bject_accel"
+   "  X.X  -X.......X-       X.......X       -X..X.X           -           X.X..X-    X..X         -  X."
+   "ri_accel"
+   "<char, std::char_traits<char>"
+   "ceSurfacePresentModesKHR"
+   "serClient11Transaction13setLayerStackERKNS_2spINS_14SurfaceControlEEENS_2ui10LayerStackE"
+   ", std::allocator<char>"
+   "lkan"
+
+0x91d910 (9 refs):
+   "for float register"
+   "ported restore location for register"
+   "t register"
+   "estore location for register"
+   "libunwind: %s - %s"
+   "getSavedRegister"
+   "unsupported restore location for register"
+   "getRegister"
+   "unsupported arm64 register"
+
+0x91db20 (9 refs):
+   "libunwind: %s - %s"
+   "getSLEB128"
+   "truncated sleb128 expression"
+   "getEncodedP"
+   "DW_EH_PE_aligned pointer encoding not supported"
+   "DW_EH_PE_textrel pointer encoding not supported"
+   "DW_EH_PE_funcrel pointer encoding not supported"
+   "DW_EH_PE_datarel is invalid with a datarelBase of 0"
+   "unknown pointer encoding"
+
+0x91c190 (8 refs):
+   "libunwind: %s - %s"
+   "getRegister"
+   "unsupported arm64 register"
+   "error in ISA selection for BVH4SubdivPatch1Intersector8"
+   "or BVH4SubdivPatch1Intersector8"
+   "ection for BVH4SubdivPatch1Intersector8"
+   " ISA selection for BVH4SubdivPatch1Intersector8"
+   "ubdivPatch1Intersector8"
+
+0x911434 (7 refs):
+   "dDisabled() too many times!"
+   "Linux (aarch64 / arm64)"
+   "inux (aarch64 / arm64)"
+   "abled() too many times!"
+   "d Linux (aarch64 / arm64)"
+   " Linux (aarch64 / arm64)"
+   "isabled() too many times!"
+
+0x91c7d0 (7 refs):
+   "Vec3faEEEEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurseESU_SA_"
+   "libunwind: %s - %s"
+   "getSavedFloatRegister"
+   "unsupported restore location for float register"
+   "getRegister"
+   "unsupported arm64 register"
+   "setRegister"
+
+0x906880 (6 refs):
+   "onfig"
+   "d Linux (aarch64 / arm64)"
+   "roid21SurfaceComposerClient11Transaction9setMatrixERKNS_2spINS_14SurfaceControlEEEffff"
+   "CmdDrawIndexedIndirect"
+   "acket"
+   "auto"
+
+0x907ac0 (6 refs):
+   "oxINS_6Vec3faEEEEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurse"
+   "seE"
+   "throw"
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h"
+   "operator name does not start with 'operator'"
+
+0x90e264 (6 refs):
+   "'block-literal'"
+   "d Linux (aarch64 / arm64)"
+   "yptnk"
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h"
+   "Popping empty vector!"
+
+0x910230 (6 refs):
+   "nfig"
+   "_hermite_curve"
+   "fig"
+   "hermite_curve"
+   "at_hermite_curve"
+   "DC huff"
+
+0x912de8 (6 refs):
+   " at offset "
+   "arch64 / arm64)"
+   "rch64 / arm64)"
+   "too many times!"
+   "d Linux (aarch64 / arm64)"
+   "dDisabled() too many times!"
+
+0x9130f8 (6 refs):
+   "(aarch64 / arm64)"
+   "() too many times!"
+   "sizeof..."
+   "ble_if:"
+   "able_if:"
+   "SubGridQBVH4"
+
+0x905214 (5 refs):
+   "/android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+   "typeinfo name for "
+   "seE"
+   "ybridPluecker"
+   "bridPluecker"
+
+0x905b74 (5 refs):
+   "error in ISA selection for BVH4Quad4iMBIntersector8HybridPluecker"
+   "cker"
+   "construction vtable for "
+   "inux (aarch64 / arm64)"
+   "abled() too many times!"
+
+0x90f25c (5 refs):
+   " AC huff"
+   "nfig"
+   "onfig"
+   "%LaL"
+   "at_hermite_curve"
+
+0x91255c (5 refs):
+   "d Linux (aarch64 / arm64)"
+   "Disabled() too many times!"
+   " Linux (aarch64 / arm64)"
+   "isabled() too many times!"
+   " noexcept"
+
+0x91a1ec (5 refs):
+   "ridPluecker"
+   "d Linux (aarch64 / arm64)"
+   "soc/7824900.sdhci/mmc_host/mmc0/mmc0:0001/cid"
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/fallback_malloc.cpp"
+
+0x91f28c (5 refs):
+   "libunwind: %s - %s"
+   "getTableEntrySize"
+   "Unknown DWARF encoding for search table."
+   "Can't binary search on variable length encoded data."
+   "unknown register"
+
+0x8dd74c (4 refs):
+   "Unknown error %d"
+   "Vec3faEEEEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurseESU_SA_"
+   "oxINS_6Vec3faEEEEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurse"
+   "generic"
+
+0x8f1f98 (4 refs):
+   "0123456789"
+   "ble_if:"
+   "%Lf"
+   "money_get error"
+
+0x8f3e34 (4 refs):
+   "0123456789"
+   "ble_if:"
+   "%Lf"
+   "money_get error"
+
+0x8ffcf0 (4 refs):
+   "__cxa_guard_acquire"
+   "%s failed to acquire mutex"
+   "%s failed to release mutex"
+   "__cxa_guard_acquire detected recursive initialization: do you have a function-local static variable "
+
+0x8ffe34 (4 refs):
+   "%s failed to acquire mutex"
+   "%s failed to release mutex"
+   "__cxa_guard_release"
+   "%s failed to broadcast"
+
+0x8ffedc (4 refs):
+   "%s failed to acquire mutex"
+   "%s failed to release mutex"
+   "__cxa_guard_abort"
+   "%s failed to broadcast"
+
+0x90006c (4 refs):
+   "terminating"
+   "terminating due to %s foreign exception"
+   "terminating due to %s exception of type %s: %s"
+   "terminating due to %s exception of type %s"
+
+0x903f50 (4 refs):
+   "string literal"
+   "std"
+   "onfig"
+   " AC huff"
+
+0x904b24 (4 refs):
+   "EEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurseESU_SA_bEUlRKNS"
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h"
+   "shrinkToSize() can't expand!"
+
+0x905888 (4 refs):
+   "AT size limit"
+   "/android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+   "d Linux (aarch64 / arm64)"
+   " Linux (aarch64 / arm64)"
+
+0x91632c (4 refs):
+   "d Linux (aarch64 / arm64)"
+   " Linux (aarch64 / arm64)"
+   "seE"
+   "rch64 / arm64)"
+
+0x91abe8 (4 refs):
+   " / arm64)"
+   "16itanium_demangle20NameWithTemplateArgsE"
+   "N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE"
+   "nternal error in ISA selection for BVH4Quad4iMBIntersector8HybridPluecker"
+
+0x91deac (4 refs):
+   "libunwind: %s - %s"
+   "getULEB128"
+   "truncated uleb128 expression"
+   "malformed uleb128 expression"
+
+0x8dcf90 (3 refs):
+   "Vulkan"
+   "pl_vulkan"
+   "0001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849"
+
+0x8de330 (3 refs):
+   "random_device got an unexpected error"
+   "random_device got EOF"
+   "iostream"
+
+0x8fbe4c (3 refs):
+   "imgui_impl_vulkan"
+   "mgui_impl_vulkan"
+   "gui_impl_vulkan"
+
+0x8fc480 (3 refs):
+   "imgui_impl_vulkan"
+   "mgui_impl_vulkan"
+   "gui_impl_vulkan"
+
+0x90053c (3 refs):
+   "libc++abi: "
+   "evices/platform/soc/7c4000.sdhci/mmc_host/mmc0/mmc0:0001/cid"
+   "libc++abi"
+
+0x9006dc (3 refs):
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/private_typeinfo.cpp"
+   "catching a class without an object?"
+
+0x905cf4 (3 refs):
+   "ybridPluecker"
+   " 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d"
+   "(anonymous namespace)"
+
+0x906308 (3 refs):
+   "int"
+   "6__ndk18messagesIwEE"
+   " (aarch64 / arm64)"
+
+0x909e14 (3 refs):
+   "this"
+   "d Linux (aarch64 / arm64)"
+   "signed int"
+
+0x90f578 (3 refs):
+   "impl_vulkan"
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h"
+
+0x90ffc4 (3 refs):
+   "Event"
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h"
+
+0x910040 (3 refs):
+   "lyf"
+   "te_curve"
+   "at_hermite_curve"
+
+0x910aa4 (3 refs):
+   "x (aarch64 / arm64)"
+   "ed() too many times!"
+   "dDisabled() too many times!"
+
+0x911340 (3 refs):
+   " Linux (aarch64 / arm64)"
+   "isabled() too many times!"
+   "dDisabled() too many times!"
+
+0x9145ec (3 refs):
+   "ui_impl_vulkan"
+   "bject_accel"
+   "12_GLOBAL__N_116itanium_demangle9ArrayTypeE"
+
+0x914b30 (3 refs):
+   "mpl_vulkan"
+   "t_accel"
+   "::friend "
+
+0x914c64 (3 refs):
+   "imgui_impl_vulkan"
+   "signed int"
+   "igned int"
+
+0x91580c (3 refs):
+   " volatile"
+   " restrict"
+   " requires "
+
+0x915d84 (3 refs):
+   "d Linux (aarch64 / arm64)"
+   " Linux (aarch64 / arm64)"
+   "noexcept"
+
+0x916e68 (3 refs):
+   "enum"
+   "struct"
+   "union"
+
+0x9186bc (3 refs):
+   "ch64 / arm64)"
+   "oo many times!"
+   "pixel vector["
+
+0x9190b4 (3 refs):
+   "Linux (aarch64 / arm64)"
+   "sabled() too many times!"
+   "dDisabled() too many times!"
+
+0x9198b8 (3 refs):
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h"
+   "Invalid access!"
+
+0x919aa4 (3 refs):
+   "iceMemoryCommitment"
+   "H4Triangle4vIntersector16HybridPluecker"
+   " ISA selection for BVH4Quad4iMBIntersector8HybridPluecker"
+
+0x91b628 (3 refs):
+   "libunwind: %s - %s"
+   "unwind_phase2"
+   "during phase1 personality function said it would stop here, but now in phase2 it did not stop here"
+
+0x91b75c (3 refs):
+   "libunwind: %s - %s"
+   "_Unwind_Resume"
+   "_Unwind_Resume() can't return"
+
+0x91bc40 (3 refs):
+   "CIE start does not match"
+   "FDE has zero length"
+   "FDE is really a CIE"
+
+0x91c278 (3 refs):
+   "libunwind: %s - %s"
+   "setRegister"
+   "unsupported arm64 register"
+
+0x91d8cc (3 refs):
+   "libunwind: %s - %s"
+   "getRegister"
+   "unsupported arm64 register"
+
+0x8dd88c (2 refs):
+   "unspecified generic_category error"
+   "system"
+
+0x8dda54 (2 refs):
+   "int"
+   "signed int"
+
+0x8dfcb4 (2 refs):
+   "error in ISA selection for BVH4Quad4iMBIntersector8HybridPluecker"
+   "uecker"
+
+0x8e078c (2 refs):
+   "ntersector8HybridPluecker"
+   "tersector8HybridPluecker"
+
+0x8e9d14 (2 refs):
+   "ybridPluecker"
+   "oxINS_6Vec3faEEEEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurse"
+
+0x8ed8b8 (2 refs):
+   "xINS_6Vec3faEEEEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurseE"
+   "oxINS_6Vec3faEEEEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurse"
+
+0x8ee2a4 (2 refs):
+   "xINS_6Vec3faEEEEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurseE"
+   "oxINS_6Vec3faEEEEEEEEUlRKNS4_11BuildRecordERKSA_E_NS_5Scene29BuildProgressMonitorInterfaceEE7recurse"
+
+0x8fa180 (2 refs):
+   "ntersector8HybridPluecker"
+   "tPhysicalDeviceSurfacePresentModesKHR"
+
+0x8fa7fc (2 refs):
+   "nternal error in ISA selection for BVH4Quad4iMBIntersector8HybridPluecker"
+   "tPhysicalDeviceSurfacePresentModesKHR"
+
+0x900028 (2 refs):
+   "terminate_handler unexpectedly returned"
+   "terminate_handler unexpectedly threw an exception"
+
+0x900230 (2 refs):
+   "Pure virtual function called!"
+   "std::exception"
+
+0x905004 (2 refs):
+   "/android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+   "vtable for "
+
+0x9050b4 (2 refs):
+   "/android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+   "VTT for "
+
+0x905164 (2 refs):
+   "/android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+   "typeinfo for "
+
+0x905474 (2 refs):
+   "/android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+   "covariant return thunk to "
+
+0x90567c (2 refs):
+   "/android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+   "virtual thunk to "
+
+0x90572c (2 refs):
+   "/android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+   "non-virtual thunk to "
+
+0x906198 (2 refs):
+   " ISA selection for BVH4Quad4iMBIntersector8HybridPluecker"
+   "std"
+
+0x906c44 (2 refs):
+   "d Linux (aarch64 / arm64)"
+   "decltype"
+
+0x90ee24 (2 refs):
+   "true"
+   "false"
+
+0x90eed4 (2 refs):
+   "%af"
+   "at_hermite_curve"
+
+0x90f090 (2 refs):
+   "onfig"
+   "at_hermite_curve"
+
+0x90f464 (2 refs):
+   "nfig"
+   "_hermite_curve"
+
+0x9107b4 (2 refs):
+   "template<"
+   "> typename "
+
+0x910f64 (2 refs):
+   " Linux (aarch64 / arm64)"
+   "isabled() too many times!"
+
+0x911fc4 (2 refs):
+   "d Linux (aarch64 / arm64)"
+   "Disabled() too many times!"
+
+0x912848 (2 refs):
+   "vkGetRenderAreaGranularity"
+   " typename "
+
+0x91296c (2 refs):
+   "vkGetRenderAreaGranularity"
+   " requires "
+
+0x91328c (2 refs):
+   "ux (aarch64 / arm64)"
+   "led() too many times!"
+
+0x9142e4 (2 refs):
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h"
+
+0x9176e4 (2 refs):
+   " volatile"
+   " restrict"
+
+0x917df8 (2 refs):
+   " volatile"
+   " restrict"
+
+0x918100 (2 refs):
+   "d int"
+   "mat"
+
+0x918a10 (2 refs):
+   "%s:%d: %s"
+   "out/llvm-project/libcxxabi/src/demangle/Utility.h"
+
+0x919d0c (2 refs):
+   "uecker"
+   "H4Triangle4vIntersector16HybridPluecker"
+
+0x91a4a4 (2 refs):
+   "x (aarch64 / arm64)"
+   " ISA selection for BVH4Quad4iMBIntersector8HybridPluecker"
+
+0x91aff4 (2 refs):
+   "ro.arch"
+   "exynos9810"
+
+0x91b34c (2 refs):
+   "ro.arch"
+   "exynos9810"
+
+0x91ee3c (2 refs):
+   "libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd"
+   "libunwind: unsupported .eh_frame_hdr version: %u at %lx"
