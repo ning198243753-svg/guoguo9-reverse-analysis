@@ -1,0 +1,268 @@
+
+// http_post() @0x4564ac —— 带字符串/调用标注的反汇编
+
+  4564ac:	d503233f 	paciasp
+  4564b0:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+  4564b4:	a9014ff4 	stp	x20, x19, [sp, #16]
+  4564b8:	910003fd 	mov	x29, sp
+  4564bc:	b00026f3 	adrp	x19, 933000 <dl_iterate_phdr@plt+0x129b0>
+  4564c0:	b00026e8 	adrp	x8, 933000 <dl_iterate_phdr@plt+0x129b0>
+  4564c4:	f9417a73 	ldr	x19, [x19, #752]
+  4564c8:	f9417d08 	ldr	x8, [x8, #760]
+  4564cc:	eb130108 	subs	x8, x8, x19
+  4564d0:	54000100 	b.eq	4564f0 <__libc_init@plt-0x4c9130>  // b.none
+  4564d4:	9343fd08 	asr	x8, x8, #3
+  4564d8:	8b080e69 	add	x9, x19, x8, lsl #3
+  4564dc:	d1000514 	sub	x20, x8, #0x1
+  4564e0:	f85f8129 	ldur	x9, [x9, #-8]
+  4564e4:	d63f0120 	blr	x9
+  4564e8:	aa1403e8 	mov	x8, x20
+  4564ec:	b5ffff74 	cbnz	x20, 4564d8 <__libc_init@plt-0x4c9148>
+  4564f0:	a9414ff4 	ldp	x20, x19, [sp, #16]
+  4564f4:	a8c27bfd 	ldp	x29, x30, [sp], #32
+  4564f8:	d50323bf 	autiasp
+  4564fc:	d65f03c0 	ret
+
+// rc4_wrap() @0x459398 —— 带字符串/调用标注的反汇编
+
+  459398:	d10143ff 	sub	sp, sp, #0x50
+  45939c:	a9017bfd 	stp	x29, x30, [sp, #16]
+  4593a0:	f90013f7 	str	x23, [sp, #32]
+  4593a4:	a90357f6 	stp	x22, x21, [sp, #48]
+  4593a8:	a9044ff4 	stp	x20, x19, [sp, #64]
+  4593ac:	910043fd 	add	x29, sp, #0x10
+  4593b0:	d53bd057 	mrs	x23, tpidr_el0
+  4593b4:	aa1f03f6 	mov	x22, xzr
+  4593b8:	f94016e8 	ldr	x8, [x23, #40]
+  4593bc:	f90007e8 	str	x8, [sp, #8]
+  4593c0:	b40003a0 	cbz	x0, 459434 <__libc_init@plt-0x4c61ec>
+  4593c4:	aa0103f3 	mov	x19, x1
+  4593c8:	b4000361 	cbz	x1, 459434 <__libc_init@plt-0x4c61ec>
+  4593cc:	aa0003f4 	mov	x20, x0
+  4593d0:	941318a4 	bl	91f660 <strlen@plt>    // CALL: strlen@plt
+  4593d4:	94131863 	bl	91f560 <__libc_init@plt-0xc0>    // CALL: __libc_init@plt-0xc0
+  4593d8:	aa0003f5 	mov	x21, x0
+  4593dc:	aa1403e0 	mov	x0, x20
+  4593e0:	b90007ff 	str	wzr, [sp, #4]
+  4593e4:	9413189f 	bl	91f660 <strlen@plt>    // CALL: strlen@plt
+  4593e8:	aa0003f6 	mov	x22, x0
+  4593ec:	aa1303e0 	mov	x0, x19
+  4593f0:	9413189c 	bl	91f660 <strlen@plt>    // CALL: strlen@plt
+  4593f4:	aa0003e3 	mov	x3, x0
+  4593f8:	910013e5 	add	x5, sp, #0x4
+  4593fc:	aa1403e0 	mov	x0, x20
+  459400:	2a1603e1 	mov	w1, w22
+  459404:	aa1303e2 	mov	x2, x19
+  459408:	aa1503e4 	mov	x4, x21
+  45940c:	94000016 	bl	459464 <__libc_init@plt-0x4c61bc>    // CALL: __libc_init@plt-0x4c61bc
+  459410:	34000100 	cbz	w0, 459430 <__libc_init@plt-0x4c61f0>
+  459414:	b94007e1 	ldr	w1, [sp, #4]
+  459418:	aa1503e0 	mov	x0, x21
+  45941c:	94000060 	bl	45959c <__libc_init@plt-0x4c6084>    // CALL: __libc_init@plt-0x4c6084
+  459420:	aa0003f6 	mov	x22, x0
+  459424:	aa1503e0 	mov	x0, x21
+  459428:	94130191 	bl	919a6c <__libc_init@plt-0x5bb4>    // CALL: __libc_init@plt-0x5bb4
+  45942c:	14000002 	b	459434 <__libc_init@plt-0x4c61ec>
+  459430:	aa1f03f6 	mov	x22, xzr
+  459434:	f94016e8 	ldr	x8, [x23, #40]
+  459438:	f94007e9 	ldr	x9, [sp, #8]
+  45943c:	eb09011f 	cmp	x8, x9
+  459440:	54000101 	b.ne	459460 <__libc_init@plt-0x4c61c0>  // b.any
+  459444:	aa1603e0 	mov	x0, x22
+  459448:	a9444ff4 	ldp	x20, x19, [sp, #64]
+  45944c:	f94013f7 	ldr	x23, [sp, #32]
+  459450:	a94357f6 	ldp	x22, x21, [sp, #48]
+  459454:	a9417bfd 	ldp	x29, x30, [sp, #16]
+  459458:	910143ff 	add	sp, sp, #0x50
+  45945c:	d65f03c0 	ret
+
+// rc4_core() @0x459464 —— 带字符串/调用标注的反汇编
+
+  459464:	d10143ff 	sub	sp, sp, #0x50
+  459468:	a9017bfd 	stp	x29, x30, [sp, #16]
+  45946c:	a9025ff8 	stp	x24, x23, [sp, #32]
+  459470:	a90357f6 	stp	x22, x21, [sp, #48]
+  459474:	a9044ff4 	stp	x20, x19, [sp, #64]
+  459478:	910043fd 	add	x29, sp, #0x10
+  45947c:	aa0003f5 	mov	x21, x0
+  459480:	2a1f03e0 	mov	w0, wzr
+  459484:	b4000815 	cbz	x21, 459584 <__libc_init@plt-0x4c609c>
+  459488:	aa0203f8 	mov	x24, x2
+  45948c:	b40007c2 	cbz	x2, 459584 <__libc_init@plt-0x4c609c>
+  459490:	aa0403f4 	mov	x20, x4
+  459494:	b4000784 	cbz	x4, 459584 <__libc_init@plt-0x4c609c>
+  459498:	f0ffdfe8 	adrp	x8, 58000 <__libc_init@plt-0x8c7620>
+  45949c:	52802000 	mov	w0, #0x100                 	// #256
+  4594a0:	aa0503f3 	mov	x19, x5
+  4594a4:	3dc10900 	ldr	q0, [x8, #1056]
+  4594a8:	2a0303f7 	mov	w23, w3
+  4594ac:	2a0103f6 	mov	w22, w1
+  4594b0:	3d8003e0 	str	q0, [sp]
+  4594b4:	9413182b 	bl	91f560 <__libc_init@plt-0xc0>    // CALL: __libc_init@plt-0xc0
+  4594b8:	4f00e600 	movi	v0.16b, #0x10
+  4594bc:	3dc003e1 	ldr	q1, [sp]
+  4594c0:	aa1f03e8 	mov	x8, xzr
+  4594c4:	3ca86801 	str	q1, [x0, x8]
+  4594c8:	4e208421 	add	v1.16b, v1.16b, v0.16b
+  4594cc:	91004108 	add	x8, x8, #0x10
+  4594d0:	f104011f 	cmp	x8, #0x100
+  4594d4:	54ffff81 	b.ne	4594c4 <__libc_init@plt-0x4c615c>  // b.any
+  4594d8:	aa1f03e8 	mov	x8, xzr
+  4594dc:	2a1f03e9 	mov	w9, wzr
+  4594e0:	1ad70d0a 	sdiv	w10, w8, w23
+  4594e4:	3868680b 	ldrb	w11, [x0, x8]
+  4594e8:	0b0b0129 	add	w9, w9, w11
+  4594ec:	1b17a14a 	msub	w10, w10, w23, w8
+  4594f0:	386a4b0a 	ldrb	w10, [x24, w10, uxtw]
+  4594f4:	0b090149 	add	w9, w10, w9
+  4594f8:	92401d2a 	and	x10, x9, #0xff
+  4594fc:	386a680c 	ldrb	w12, [x0, x10]
+  459500:	3828680c 	strb	w12, [x0, x8]
+  459504:	91000508 	add	x8, x8, #0x1
+  459508:	f104011f 	cmp	x8, #0x100
+  45950c:	382a680b 	strb	w11, [x0, x10]
+  459510:	54fffe81 	b.ne	4594e0 <__libc_init@plt-0x4c6140>  // b.any
+  459514:	710006df 	cmp	w22, #0x1
+  459518:	5400030b 	b.lt	459578 <__libc_init@plt-0x4c60a8>  // b.tstop
+  45951c:	2a1f03e8 	mov	w8, wzr
+  459520:	2a1f03ea 	mov	w10, wzr
+  459524:	2a1603e9 	mov	w9, w22
+  459528:	1100054a 	add	w10, w10, #0x1
+  45952c:	6b0a03eb 	negs	w11, w10
+  459530:	12001d4a 	and	w10, w10, #0xff
+  459534:	12001d6b 	and	w11, w11, #0xff
+  459538:	5a8b454a 	csneg	w10, w10, w11, mi	// mi = first
+  45953c:	f1000529 	subs	x9, x9, #0x1
+  459540:	386ac80b 	ldrb	w11, [x0, w10, sxtw]
+  459544:	0b080168 	add	w8, w11, w8
+  459548:	92401d0c 	and	x12, x8, #0xff
+  45954c:	386c680d 	ldrb	w13, [x0, x12]
+  459550:	382ac80d 	strb	w13, [x0, w10, sxtw]
+  459554:	382c680b 	strb	w11, [x0, x12]
+  459558:	386ac80c 	ldrb	w12, [x0, w10, sxtw]
+  45955c:	0b0b018b 	add	w11, w12, w11
+  459560:	384016ac 	ldrb	w12, [x21], #1
+  459564:	92401d6b 	and	x11, x11, #0xff
+  459568:	386b680b 	ldrb	w11, [x0, x11]
+  45956c:	4a0c016b 	eor	w11, w11, w12
+  459570:	3800168b 	strb	w11, [x20], #1
+  459574:	54fffda1 	b.ne	459528 <__libc_init@plt-0x4c60f8>  // b.any
+  459578:	b9000276 	str	w22, [x19]
+  45957c:	9413013c 	bl	919a6c <__libc_init@plt-0x5bb4>    // CALL: __libc_init@plt-0x5bb4
+  459580:	12800000 	mov	w0, #0xffffffff            	// #-1
+  459584:	a9444ff4 	ldp	x20, x19, [sp, #64]
+  459588:	a94357f6 	ldp	x22, x21, [sp, #48]
+  45958c:	a9425ff8 	ldp	x24, x23, [sp, #32]
+  459590:	a9417bfd 	ldp	x29, x30, [sp, #16]
+  459594:	910143ff 	add	sp, sp, #0x50
+  459598:	d65f03c0 	ret
+
+// hex_encode() @0x45959c —— 带字符串/调用标注的反汇编
+
+  45959c:	b4000420 	cbz	x0, 459620 <__libc_init@plt-0x4c6000>
+  4595a0:	a9bd7bfd 	stp	x29, x30, [sp, #-48]!
+  4595a4:	f9000bf5 	str	x21, [sp, #16]
+  4595a8:	a9024ff4 	stp	x20, x19, [sp, #32]
+  4595ac:	910003fd 	mov	x29, sp
+  4595b0:	2a0103f4 	mov	w20, w1
+  4595b4:	aa0003f3 	mov	x19, x0
+  4595b8:	937f7e95 	sbfiz	x21, x20, #1, #32
+  4595bc:	320002a8 	orr	w8, w21, #0x1
+  4595c0:	93407d00 	sxtw	x0, w8
+  4595c4:	941317e7 	bl	91f560 <__libc_init@plt-0xc0>    // CALL: __libc_init@plt-0xc0
+  4595c8:	7100069f 	cmp	w20, #0x1
+  4595cc:	5400022b 	b.lt	459610 <__libc_init@plt-0x4c6010>  // b.tstop
+  4595d0:	2a1403e8 	mov	w8, w20
+  4595d4:	91000409 	add	x9, x0, #0x1
+  4595d8:	5280060a 	mov	w10, #0x30                  	// #48
+  4595dc:	52800aeb 	mov	w11, #0x57                  	// #87
+  4595e0:	3840166c 	ldrb	w12, [x19], #1
+  4595e4:	71027d9f 	cmp	w12, #0x9f
+  4595e8:	12000d8d 	and	w13, w12, #0xf
+  4595ec:	1a8a816e 	csel	w14, w11, w10, hi	// hi = pmore
+  4595f0:	710025bf 	cmp	w13, #0x9
+  4595f4:	0b4c11cc 	add	w12, w14, w12, lsr #4
+  4595f8:	1a8a816e 	csel	w14, w11, w10, hi	// hi = pmore
+  4595fc:	f1000508 	subs	x8, x8, #0x1
+  459600:	0b0d01cd 	add	w13, w14, w13
+  459604:	381ff12c 	sturb	w12, [x9, #-1]
+  459608:	3800252d 	strb	w13, [x9], #2
+  45960c:	54fffea1 	b.ne	4595e0 <__libc_init@plt-0x4c6040>  // b.any
+  459610:	3835681f 	strb	wzr, [x0, x21]
+  459614:	a9424ff4 	ldp	x20, x19, [sp, #32]
+  459618:	f9400bf5 	ldr	x21, [sp, #16]
+  45961c:	a8c37bfd 	ldp	x29, x30, [sp], #48
+  459620:	d65f03c0 	ret
+
+// json_get() @0x459280 —— 带字符串/调用标注的反汇编
+
+  459280:	aa0003e8 	mov	x8, x0
+  459284:	aa1f03e0 	mov	x0, xzr
+  459288:	b4000868 	cbz	x8, 459394 <__libc_init@plt-0x4c628c>
+  45928c:	a9bd7bfd 	stp	x29, x30, [sp, #-48]!
+  459290:	f9000bf5 	str	x21, [sp, #16]
+  459294:	a9024ff4 	stp	x20, x19, [sp, #32]
+  459298:	910003fd 	mov	x29, sp
+  45929c:	aa0103f3 	mov	x19, x1
+  4592a0:	b4000741 	cbz	x1, 459388 <__libc_init@plt-0x4c6298>
+  4592a4:	f9400915 	ldr	x21, [x8, #16]
+  4592a8:	34000162 	cbz	w2, 4592d4 <__libc_init@plt-0x4c634c>
+  4592ac:	b4000635 	cbz	x21, 459370 <__libc_init@plt-0x4c62b0>
+  4592b0:	f9401eb4 	ldr	x20, [x21, #56]
+  4592b4:	b4000634 	cbz	x20, 459378 <__libc_init@plt-0x4c62a8>
+  4592b8:	aa1303e0 	mov	x0, x19
+  4592bc:	aa1403e1 	mov	x1, x20
+  4592c0:	94131974 	bl	91f890 <strcmp@plt>    // CALL: strcmp@plt
+  4592c4:	340005a0 	cbz	w0, 459378 <__libc_init@plt-0x4c62a8>
+  4592c8:	f94002b5 	ldr	x21, [x21]
+  4592cc:	b5ffff35 	cbnz	x21, 4592b0 <__libc_init@plt-0x4c6370>
+  4592d0:	14000028 	b	459370 <__libc_init@plt-0x4c62b0>
+  4592d4:	b40004f5 	cbz	x21, 459370 <__libc_init@plt-0x4c62b0>
+  4592d8:	91000668 	add	x8, x19, #0x1
+  4592dc:	f9401eaa 	ldr	x10, [x21, #56]
+  4592e0:	b400040a 	cbz	x10, 459360 <__libc_init@plt-0x4c62c0>
+  4592e4:	eb13015f 	cmp	x10, x19
+  4592e8:	540004e0 	b.eq	459384 <__libc_init@plt-0x4c629c>  // b.none
+  4592ec:	39400269 	ldrb	w9, [x19]
+  4592f0:	3940014b 	ldrb	w11, [x10]
+  4592f4:	51016d2c 	sub	w12, w9, #0x5b
+  4592f8:	321b012d 	orr	w13, w9, #0x20
+  4592fc:	51016d6e 	sub	w14, w11, #0x5b
+  459300:	3100699f 	cmn	w12, #0x1a
+  459304:	1a8d312c 	csel	w12, w9, w13, cc	// cc = lo, ul, last
+  459308:	321b016d 	orr	w13, w11, #0x20
+  45930c:	310069df 	cmn	w14, #0x1a
+  459310:	1a8d316d 	csel	w13, w11, w13, cc	// cc = lo, ul, last
+  459314:	6b0d019f 	cmp	w12, w13
+  459318:	54000201 	b.ne	459358 <__libc_init@plt-0x4c62c8>  // b.any
+  45931c:	9100054a 	add	x10, x10, #0x1
+  459320:	aa0803eb 	mov	x11, x8
+  459324:	34000309 	cbz	w9, 459384 <__libc_init@plt-0x4c629c>
+  459328:	38401569 	ldrb	w9, [x11], #1
+  45932c:	3840154d 	ldrb	w13, [x10], #1
+  459330:	51016d2c 	sub	w12, w9, #0x5b
+  459334:	321b012e 	orr	w14, w9, #0x20
+  459338:	3100699f 	cmn	w12, #0x1a
+  45933c:	51016daf 	sub	w15, w13, #0x5b
+  459340:	1a8e312c 	csel	w12, w9, w14, cc	// cc = lo, ul, last
+  459344:	321b01ae 	orr	w14, w13, #0x20
+  459348:	310069ff 	cmn	w15, #0x1a
+  45934c:	1a8e31ad 	csel	w13, w13, w14, cc	// cc = lo, ul, last
+  459350:	6b0d019f 	cmp	w12, w13
+  459354:	54fffe80 	b.eq	459324 <__libc_init@plt-0x4c62fc>  // b.none
+  459358:	6b0d019f 	cmp	w12, w13
+  45935c:	54000140 	b.eq	459384 <__libc_init@plt-0x4c629c>  // b.none
+  459360:	f94002b5 	ldr	x21, [x21]
+  459364:	aa1f03e0 	mov	x0, xzr
+  459368:	b5fffbb5 	cbnz	x21, 4592dc <__libc_init@plt-0x4c6344>
+  45936c:	14000007 	b	459388 <__libc_init@plt-0x4c6298>
+  459370:	aa1f03e0 	mov	x0, xzr
+  459374:	14000005 	b	459388 <__libc_init@plt-0x4c6298>
+  459378:	f100029f 	cmp	x20, #0x0
+  45937c:	9a9503e0 	csel	x0, xzr, x21, eq	// eq = none
+  459380:	14000002 	b	459388 <__libc_init@plt-0x4c6298>
+  459384:	aa1503e0 	mov	x0, x21
+  459388:	a9424ff4 	ldp	x20, x19, [sp, #32]
+  45938c:	f9400bf5 	ldr	x21, [sp, #16]
+  459390:	a8c37bfd 	ldp	x29, x30, [sp], #48
+  459394:	d65f03c0 	ret
