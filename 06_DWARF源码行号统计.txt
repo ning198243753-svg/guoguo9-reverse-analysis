@@ -1,0 +1,26 @@
+# 驱动源码 DWARF 行号覆盖 (/mnt/e/gt_driver_source)
+文件	唯一行数	行号范围
+83	arm64_decode.c	15-365
+154	arm64_decode_base.c	11-429
+59	arm64_decode_branch.c	12-206
+130	arm64_decode_ldst.c	7-419
+372	arm64_decode_simd.c	5-1445
+4	arm64_decode_sme.c	5-15
+7	arm64_decode_sve.c	5-14
+5	arm64_reg_io.h	151-193
+1232	brk_bp.c	123-3775
+1108	emulate_insn.h	87-5202
+10	entry.c	13-37
+35	hide_process.c	19-100
+119	hook.c	59-419
+281	hw_point.c	115-1017
+110	ioctl_hook.c	32-353
+139	kp_core_hook.c	170-650
+133	memory.c	61-574
+73	paradise_gyro.c	52-247
+17	process.c	21-65
+33	pte_control.c	24-130
+104	ptrace_hook.c	82-415
+319	shadow_fault.c	119-1328
+
+合计 22 个源文件, 4527 个唯一行号条目
