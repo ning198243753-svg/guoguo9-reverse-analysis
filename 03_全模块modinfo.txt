@@ -1,0 +1,13 @@
+5.10.ko	vermagic=5.10.237 SMP preempt mod_unload modversions aarch64	license=GPL	name=lsdriver
+5.10.ko.ko	vermagic=5.10.252-dirty SMP preempt mod_unload modversions aarch64	license=GPL	name=paradise
+5.15.ko	vermagic=5.15.182-maybe-dirty SMP preempt mod_unload modversions aarch64	license=GPL	name=lsdriver
+5.15.ko.ko	vermagic=5.15.202-android13-5.15.202_r00-dirty SMP preempt mod_unload modversions aarch64	license=GPL	name=paradise
+5.4.ko	vermagic=5.4.61-g7db0abb67-dirty SMP preempt mod_unload modversions aarch64	license=GPL	name=lsdriver
+6.1.ko	vermagic=6.1.138-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	license=GPL	name=lsdriver
+6.1.ko.ko	vermagic=6.1.166-dirty SMP preempt mod_unload modversions aarch64	license=GPL	name=paradise
+6.12.ko.ko	vermagic=6.12.76-4k SMP preempt mod_unload modversions aarch64	license=GPL	name=paradise
+6.12a.ko	vermagic=6.12.58-android16-6-maybe-dirty-4k SMP preempt mod_unload modversions aarch64	license=GPL	name=lsdriver
+6.12b.ko	vermagic=6.12.23-android16-5-maybe-dirty-4k SMP preempt mod_unload modversions aarch64	license=GPL	name=lsdriver
+6.18.ko.ko	vermagic=6.18.32-4k-g47cc22554442-dirty SMP preempt mod_unload modversions aarch64	license=GPL	name=paradise
+6.6.ko	vermagic=6.6.89-android15-8-maybe-dirty-4k SMP preempt mod_unload modversions aarch64	license=GPL	name=lsdriver
+6.6.ko.ko	vermagic=6.6.127-4k-g46a034eca005-dirty SMP preempt mod_unload modversions aarch64	license=GPL	name=paradise
