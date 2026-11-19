@@ -1,0 +1,23 @@
+卡密验证算法逆向结果（来源 果果核心.sh @0x459xxx）
+
+【服务器】wy.llua.cn  (另见 b6re5.com, pan.n8w.cn)
+【接口】POST /api/?id=kmlogin&app=82032
+【请求参数】kami=<卡密>&markcode=<设备码>&t=<时间戳>&sign=<RC4签名>&value=<RC4加密>&data=<附加数据>
+【算法】RC4（KSA: S[i]=i; j=(j+S[i]+key[i%len])&0xff; PRGA: 异或输出）
+  然后 hex 大写编码（0-9 -> 0x30, A-F -> 0x57）
+【密钥1 sign】0bK9k90r9r092Rmj   (用于 sign 参数)
+【密钥2 value】199f8d3da0e61b1ce59b54c49df3686a (32字节, 疑似 value 加密)
+【响应JSON字段（混淆后的键名）】
+  t1ebe04e40b082d20916dbce089fc0cd1
+  f17bb08d166fc85ca326a5a99dadfe3b4
+  h0787a6210a3e2695cb7c0f85f97b69e1
+  u36b644a0ef9fe619c6b0cf2975daff88
+  w0b57680467d067bdc839761548739818
+  s9b4664365c72d5ec3dd841974636128e
+  a0c85fe66f4875ff737dbaff61aa8c8a
+  解析用大小写不敏感 strcasecmp
+【判断逻辑】0x459d00: cmp w21, #0x743e(29758) —— 校验返回的状态码
+【设备码markcode来源】/sys/devices/.../mmc_host/mmc0/mmc0:0001/cid 或 serial
+【时间/用户输入】%Y-%m-%d %H:%M:%S, srand/rand
+
+示例 sign = RC4("0bK9k90r9r092Rmj", kami+&markcode=..+&t=..+&) 
