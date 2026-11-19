@@ -1,0 +1,13 @@
+5.10.ko	7937136	5.10.237 SMP preempt mod_unload modversions aarch64	GPL
+5.10.ko.ko	318184	5.10.252-dirty SMP preempt mod_unload modversions aarch64	GPL
+5.15.ko	7488320	5.15.182-maybe-dirty SMP preempt mod_unload modversions aarch64	GPL
+5.15.ko.ko	344056	5.15.202-android13-5.15.202_r00-dirty SMP preempt mod_unload modversions aarch64	GPL
+5.4.ko	6752336	5.4.61-g7db0abb67-dirty SMP preempt mod_unload modversions aarch64	GPL
+6.1.ko	6250536	6.1.138-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	GPL
+6.1.ko.ko	342168	6.1.166-dirty SMP preempt mod_unload modversions aarch64	GPL
+6.12.ko.ko	316568	6.12.76-4k SMP preempt mod_unload modversions aarch64	GPL
+6.12a.ko	2982832	6.12.58-android16-6-maybe-dirty-4k SMP preempt mod_unload modversions aarch64	GPL
+6.12b.ko	2869992	6.12.23-android16-5-maybe-dirty-4k SMP preempt mod_unload modversions aarch64	GPL
+6.18.ko.ko	298160	6.18.32-4k-g47cc22554442-dirty SMP preempt mod_unload modversions aarch64	GPL
+6.6.ko	2469104	6.6.89-android15-8-maybe-dirty-4k SMP preempt mod_unload modversions aarch64	GPL
+6.6.ko.ko	275752	6.6.127-4k-g46a034eca005-dirty SMP preempt mod_unload modversions aarch64	GPL
