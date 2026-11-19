@@ -1,0 +1,10 @@
+5.10.ko: 132 funcs
+5.15.ko: 189 funcs
+5.15.ko.ko: 169 funcs
+5.4.ko: 154 funcs
+6.1.ko: 156 funcs
+6.1.ko.ko: 135 funcs
+6.12a.ko: 160 funcs
+6.12b.ko: 171 funcs
+6.6.ko: 175 funcs
+6.6.ko.ko: 145 funcs
