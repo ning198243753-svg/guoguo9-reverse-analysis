@@ -1,0 +1,28 @@
+paradise (android-paradise 开源后门驱动) supercall 命令码: 0xc0045729, 0xc004572d, 0xc008570c, 0xc008570d, 0xc008570e, 0xc008573c, 0xc0105714, 0xc0105715, 0xc0105738, 0xc0105739, 0xc0185712, 0xc0185713, 0xc018572b, 0xc020573a, 0xc020573b, 0xc0285709, 0xc028570b, 0xc028570c
+命令经 anon inode fd 的 ioctl 分派，_IO 编码 0xc0xx57xx
+
+暴露的功能函数(从 paradise_anon_ioctl 反汇编):
+get_thread_tpidr_el0
+do_hide_path
+bind_thread_pacga_key
+memset
+get_module_bounds
+get_thread_pacga_key
+runEvent
+mutex_lock
+do_read_physical_memory
+do_config_gyro_hook
+get_main_thread_elf0
+do_hwbp_set
+mutex_unlock
+find_get_pid
+pid_task
+do_hide_process
+do_write_physical_memory
+find_process_by_name
+do_list_processes
+do_hwbp_get_records
+do_hwbp_set_record
+initEvent
+do_hwbp_remove
+get_thread_pacia_key
