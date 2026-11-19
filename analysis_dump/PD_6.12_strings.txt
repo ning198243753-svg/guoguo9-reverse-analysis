@@ -1,0 +1,2593 @@
+swap_write_page_direct
+sysfs_create_group
+/__w/android-paradise/android-paradise/src/hwbp/paradise_hwbp.c
+6[paradise] bye!
+6[paradise] listed %zu processes in bitmap
+kgsl_process_init_debugfs
+arraylist_create
+6[paradise] nigga hook successfully
+3[paradise] reboot kprobe failed: %d
+__cfi_check_fail
+do_list_processes
+paradise_hwbp_init
+3[paradise] paradise_gyro_init failed: %d
+__cfi_slowpath_diag
+3[paradise] %s has an unaligned address: %px
+3[paradise] failed to patch %s: %d
+6[paradise] hid pid %d via filldir64/kgsl hooks
+do_hwbp_get_records
+kallsyms_lookup_name
+3[paradise] kprobe_blacklist not found
+swap_read_page_direct
+size=0,mode=0555
+3[paradise] kgsl_hide: inline hook install failed: %d
+put_files_struct
+4[paradise] gyro: no SEQPACKET sockets found in system_server
+4[paradise] attempt to write to unknown breakpoint register %d
+reboot_handler_pre
+4[paradise] no output pointer provided, closing fd %d
+filp_open
+6[paradise] %s already patched
+include/linux/thread_info.h
+input_dev_list
+paradise_anon_open
+3[paradise] kallsyms_lookup_name not found
+6[paradise] patched %s with a BTI-compatible stub
+6[paradise] unhid path %s
+kern_path
+gyro_sendmsg
+include/linux/fs.h
+3[paradise] no output pointer provided
+report_cfi_failure
+6[paradise] hid path %s
+4[paradise] bitmap size too small: %zu (minimum 8192)
+wp_on_reg
+3[paradise] disable_kprobe_blacklist failed: %d
+3[paradise] paradise_hwbp_init failed: %d
+path_umount
+3[paradise] hide_path: failed to resolve required path symbols
+/__w/android-paradise/android-paradise/src/utils/karray_list.c
+[eventpoll]
+3[paradise] get_module_bounds: null output pointer
+path_mount
+aarch64_insn_write
+3[paradise] failed to write error code to user space
+3[paradise] failed to find pid_struct
+6[paradise] kgsl_hide: inline hook installed
+4[paradise] attempt to read from unknown breakpoint register %d
+3[paradise] failed to allocate task work
+3[paradise] failed to get mm from task
+do_write_physical_memory
+kgsl
+caches_clean_inval_pou
+ensure_capacity
+/__w/android-paradise/android-paradise/src/core/paradise_supercalls.c
+system_server
+bp_on_reg
+__arm64_sys_reboot
+6[paradise] Disabled %d kprobe blacklist entries
+3process name is empty
+swap_info
+4[paradise] hide: mount over %s failed: %d
+input_mt_sync_frame
+3[paradise] init_arch failed: %d
+3[paradise] module name is empty
+aarch64_insn_patch_text
+__arch_copy_to_user
+__arch_copy_from_user
+tmpfs
+6[paradise] kgsl_hide: hidden PID %d
+4[paradise] instruction %x cannot be hijacked!
+3[paradise] failed to verify patch for %s
+hide_mount_tmpfs
+/__w/android-paradise/android-paradise/src/gyro/paradise_gyro.c
+get_files_struct
+filldir64
+struct file::f_count incremented from zero; use-after-free condition present!
+6[paradise] cfi_bypass result: %d
+3[paradise] paradise_install_fd: failed to get unused fd
+3[paradise] failed to get task from pid_struct
+get_cmdline
+task_work_add
+3[paradise] task_work_add not available, cannot install fd
+path_put
+3[paradise] failed to allocate private data
+__flush_icache_range
+finish_task_switch
+watchpoint_handler
+input_mt_report_slot_state
+3[paradise] paradise_install_fd: failed to create anon inode file
+4[paradise] install fd add task_work failed
+3[paradise] failed to allocate kernel bitmap
+perf_bp_event
+_cfi_slowpath
+filp_close
+/__w/android-paradise/android-paradise/src/ioctl/paradise_ioctl.c
+3[paradise] failed to create used_pages arraylist
+4[paradise] hide_path: %s not in hidden list
+6[paradise] gyro: hooked %d sockets in system_server (pid %d)
+input_event
+3[paradise] task_work_add not found, fd installation via reboot syscall will not work
+6[paradise] kallsyms_lookup_name_ex found at %p
+paradise
+__cfi_slowpath
+do_read_physical_memory
+do_hide_path
+6[paradise] unhid pid %d
+3[paradise] failed to write fd to user space, closing fd %d
+kprobe_blacklist
+__ubsan_handle_cfi_check_fail_abort
+__ubsan_handle_cfi_check_fail
+ushl
+3[paradise] failed to install paradise fd for pid %d
+kgsl_process_init_sysfs
+6[paradise] gyro: cleaned up
+breakpoint_handler
+sshl
+4[paradise] [emulate] failed pc=0x%llx insn=0x%08x bytes=%02x %02x %02x %02x
+T		@
+TLyh
+TLyh
+T`E0
+T)it
+T	-L
+T(Mb
+R(t@
+T(qk
+R(P@
+T)it
+R(,@
+T`E0
+T)it
+T9yh
+T E0
+hBH9
+hBH9
+j-8)
+6iz@
+6iz@
+4	A8
+4	A8
+4	A8
+4	A8
+4	A8
+4	A8
+4	A8
+4	A8
++})?
+Rj~@
+	*>A>
+	*;A;
+T|O	
+3 	H
+3 	H
+3 	H
+	kh	Az
+3 	H
+	kh	Az
+3 	H
+@9_}
+@9?}
+@9?}
+@9*	
+@9j	
+T(D;
+s@9?}
+@9?}
+@9?}
+@9_}
+@9?}
+@9?}
+@9?}
+@9?}
+TiZi
+@9?5
+TiZi
+TiZi
+TiZi
+@9_}
+TiZi
+TjZj
+TiZi
+TlZi
+TiZi
+TlZi
+TiZi
+@9_}
+TiZi
+TjZj
+TjZj
+TkZk
+TkZk
+TjZi
+TjZj
+TkZk
+Tk}@
+@9_}
+@9_}
+`7J>
+@9?}
+TiZi
+ThZk
+@9?}
+@9?}
+TkZk
+3@6l
+0@6 
+@9_}
+TkZj
+@9?}
+TiZi
+TkZk
+@9?}
+ThZi
+	k`-
+Tizi
+Rhj)
+	k`*
+s@9K
+TjZj
+TjZj
+TjZj
+@9?}
+TkZk
+TmZm
+JOP7j
+K@6?
+TiZi
+jQH6L
+JQH6@
+@9?}
+Tj}@
+j	B;
+@9?}
+TK}@
+@9?}
+ThZ)
+MX7)
+LKX7)
+lKX7)
+KX7)
+LIX7)
+lIX7)
+IX7)
+IX7)
+TiZi
+@9_}
+TiZi
+@9_}
+TjZj
+TiZk
+TiZk
+*))+
+TiZk
+TiZk
+TjZj
+TkZk
+TkZk
+TkZk
+TkZk
+ThZ)
+TiZi
+CH6?
+TiZi
+?@6?
+(7?}
+	86?
+j9x6?
+Tczi
+@9?}
+TdZi
+*jaB
+*j!B
+T	}_
+J,@6?
+TiZi
+T)}@
+J+H6?
+TkZk
+T	-*
+"@6,;
+*J$@6L<
+%@6l=
+&@6,>
+(7?}
+(7CA
+q*}@
+Tczi
+TyZ(
+qkz(
+TH}@
+@9_}
+T+}@
+@6? 
+H6? 
+x6? 
+H6L:
+H6L9
+Aixw
+H6L9
+qix[
+@9?}
+&@6?
+T	}_H
+*&H6?
+T	-*
+TK}@
+T*}@
+@6? 
+T	}_
+H6? 
+1i8D
+1)8@
+Qi86
+Q)84
+!i8,
+!)8(
+TI}@
+@6? 
+K>7? 
+H6? 
+*jI>7? 
+T*}@
+T	}_
+T,}@
+Ti}@
+H`@9
+TId@9?
+TJh@9_
+TY$@
+@9U|@9I
+A9X8@
+H`@9
+TJd@9_
+TO$@
+@9N8@
+= H!^ 
+I`@9?
+TJd@9_
+TKh@9
+TH$@
+@9F|@9G8@
+H`@9
+TJd@9_
+TKh@9
+TM$@
+L|@9(
+TI`@9?
+THd@9
+I|@9J8@
+TId@9?
+TKh@9
+J`@9_
+THd@9
+TI$@
+@9,)
+TM|@9
+ D".@
+@9H|@9
+TI`@9?
+TJd@9_
+TKh@9
+H`@9
+TJd@9_
+@9M$@
+K|@9
+H`@9
+TJd@9_
+@9M$@
+L|@9
+H|@9
+TJ`@9_
+TKd@9
+H`@9
+TJd@9_
+TKh@9
+TI$@
+@9L|@9
+H|@9
+TI`@9?
+TJd@9_
+TKh@9
+TLl@9
+TH$@
+H|@9?
+TJ`@9_
+TId@9?}
+TH|@9
+TH`@9
+B|@9
+H|@9
+TI`@9?
+TJd@9_
+TKh@9
+TH$@
+I`@9?
+TJd@9_
+TKh@9
+TH$@
+@9L|@9
+I`@9?
+TJd@9_
+@9L$@
+K|@9
+I|@9H$@
+@9_5
+H`@9
+TJd@9_
+TL$@
+@9K|@9
+H`@9
+TJd@9_
+TKh@9
+TN$@
+@9M|@9
+H|@9
+TH`@9
+TId@9?
+TJh@9_
+K|@9
+I`@9?
+TJd@9_
+TKh@9
+K|@9M8@
+TI|@9H
+I`@9Jd@9
+THd@9
+}@9>'
+I`@9?
+TJd@9_
+TKh@9
+@9N$@
+M|@9L
+TI`@9?
+TJd@9_
+TKh@9
+@9F|@9G
+A9L8@
+H`@9
+TJd@9_
+TN$@
+@9K|@9
+I`@9?
+TJd@9_
+TKh@9
+TM$@
+= H!
+THd@9
+TJ|@9(
+hb@9
+Id@9?
+TH`@9
+TJ|@9(
+TH`@9
+TId@9?
+TJh@9_
+@9D|@9E
+= (!. 
+= 80. 
+Id@9
+THh@9
+=0 "
+Id@9
+THh@9
+=0 b
+TK(@
+TH`@9
+TId@9?
+= @&
+TK(@
+TH`@9
+TId@9?
+= @f
+TH`@9
+TId@9
+TKi@9
+TJm@9_
+TI`@9?
+TJd@9
+Tki@9
+TH`@9
+TId@9
+TKi@9
+TJm@9_
+TI`@9?
+TJd@9
+Tki@9
+THh@9
+}@9G&
+T	Xi
+N Dbn@
+= (!
+= H!. 
+=J$@
+I|@9H`@9_
+= X .
+J`@9_}
+T+}@
+YixY
+I`@9?
+THd@9
+Hd@9
+	*8#
+Hd@9
+Hd@9
+hb@9
+)}@9K}@
+=8  
+=8 `
+TH`@9
+TId@9
+TKi@9
+TJm@9_
+TH`@9
+TId@9
+TKi@9
+TJm@9_
+= H!~ 
+= (!~ 
+= 80
+TH`@9
+TId@9
+TJi@9_
+TH`@9
+TId@9
+TJi@9_
+TH`@9
+TJd@9_
+TH`@9
+TJd@9_
+= Ha
+= (a. 
+= (a
+= Ha. 
+C|@9
+= XBN 
+= 8BN 
+= xBN 
+= (BN 
+= hBN 
+THh@9
+=  "
+=(  
+THh@9
+=  b
+=( `
+ Db.@
+= Ha~ 
+= (a~ 
+= Ha^ 
+H|@9
+TK|@9
+TK|@9
+H|@9
+TK|@9
+= @b
+TK|@9
+TH`@9
+TId@9
+TJi@9_
+= 8"
+TH`@9
+TId@9
+TJi@9_
+= 8b
+TI`@9?
+TJd@9
+Tki@9
+= X"
+TI`@9?
+TJd@9
+Tki@9
+= Xb
+= X n
+4I|@9?
+TId@9?
+TJh@9_
+Id@9
+THh@9
+=0 "
+Id@9
+THh@9
+=0 b
+THh@9
+=  "
+THh@9
+=  b
+H`@9
+TId@9?
+TJh@9_
+TKl@9
+H`@9
+TId@9?
+TJh@9_
+TKl@9
+H`@9
+TId@9?
+TJh@9_
+TKl@9
+H`@9
+TId@9?
+TJh@9_
+TKl@9
+N D"n@
+= H!N 
+= (!n 
+= (!N 
+= H!n 
+H`@9
+TId@9?
+= @!
+H`@9
+TId@9?
+H`@9
+TId@9?
+= @ 
+H`@9
+TId@9?
+= @a
+H`@9
+TId@9?
+H`@9
+TId@9?
+= @`
+= 80n 
+= 80N 
+= \b^ 
+= ,b~ 
+= Lb^ 
+= \b~ 
+= ,B~ 
+= $B^ 
+= <B^ 
+= $B~ 
+= ,b^ 
+= Lb~ 
+H`@9
+TId@9?
+TJh@9_
+H`@9
+TId@9?
+TJh@9_
+= ("
+H`@9
+TId@9?
+TJh@9_
+= h"
+H`@9
+TId@9?
+TJh@9_
+H`@9
+TId@9?
+TJh@9_
+= (b
+H`@9
+TId@9?
+TJh@9_
+= H"
+H`@9
+TId@9?
+TJh@9_
+= hb
+H`@9
+TId@9?
+TJh@9_
+= Hb
+H`@9
+TId@9?
+TJh@9_
+= x"
+H`@9
+TId@9?
+TJh@9_
+= xb
+N DbN@
+N D"N@
+= HaN 
+= (an 
+= (aN 
+= Han 
+TK|@9
+TK|@9
+TK|@9
+TK|@9
+= l". 
+= \". 
+= d". 
+= T". 
+= d"
+= T"
+= L". 
+= ,"
+= <"
+= D"
+= \"
+= 4"
+= ,". 
+= l"
+= 4". 
+= L"
+= <". 
+= t"
+= $"
+= $". 
+= D". 
+= |". 
+= |"
+= t". 
+= <B. 
+= ,B. 
+= 4B. 
+= $B
+= 4B
+= <B
+= $B. 
+TH`@9
+TId@9?
+= @%
+TH`@9
+TId@9?
+= @e
+= XB
+= 8B
+= xB
+= (B
+= hB
+= 8p. 
+= 8p
+TH`@9
+TId@9?
+= @'
+TH`@9
+TId@9?
+= @g
+= l"n 
+= \bn 
+= d"n 
+= Tbn 
+= d"N 
+= TbN 
+= Lbn 
+= ,bN 
+= <bN 
+= DbN 
+= \bN 
+= 4bN 
+= ,bn 
+= l"N 
+= 4bn 
+= LbN 
+= <bn 
+= t"N 
+= $"N 
+= $"n 
+= Dbn 
+= |"n 
+= |"N 
+= t"n 
+H|@9
+H|@9
+H|@9
+H|@9
+H|@9
+H|@9
+H|@9
+H|@9
+H|@9
+H|@9
+H|@9
+H|@9
+= <Bn 
+= ,Bn 
+= 4Bn 
+= $BN 
+= 4BN 
+= <BN 
+= $Bn 
+= 8pn 
+= 8pN 
+= \"^ 
+= ,"~ 
+= L"^ 
+= \"~ 
+= ,"^ 
+= L"~ 
+(a@9
+T)e@9?
+= @$
+(a@9
+T)e@9?
+= @d
+(a@9
+T)e@9?
+(a@9
+T)e@9?
+(a@9
+T)e@9?
+(a@9
+T)e@9?
+(a@9
+T)e@9?
+(a@9
+T)e@9?
+= lb. 
+= lbn 
+= \b. 
+= db. 
+= dbn 
+= Tb. 
+= db
+= dbN 
+= Tb
+= Lb. 
+= ,b
+= <b
+= Db
+= \b
+= 4b
+= ,b. 
+= lb
+= lbN 
+= 4b. 
+= Lb
+= <b. 
+= tb
+= tbN 
+= $b
+= $bN 
+= $b. 
+= $bn 
+= Db. 
+= |b. 
+= |bn 
+= |b
+= |bN 
+= tb. 
+= tbn 
+R	A8
+= \"n 
+= T"n 
+= T"N 
+= L"n 
+= ,"N 
+= <"N 
+= D"N 
+= \"N 
+= 4"N 
+= ,"n 
+= 4"n 
+= L"N 
+= <"n 
+= D"n 
+iXgx
+THXex
+THXe
+THHe8
+*	A8
+= 0B/
+= 0Bo
+= pB/
+= pBo
+= PB/
+= PBo
+in80
+@9)}
+T	|@
+@9)}
+		@9*
+		@9*
+		@9*
+		@9)}
+@9)}
+T	 @
+@9)}
+T	0@
+@9)}
+T	@@
+@9)}
+T	P@
+@9)}
+T	`@
+	!@9*
+	!@9*
+	!@9*
+	!@9)}
+T	p@
+	%@9*
+	%@9)
+T)D;
+	%@9)
+T	D;
+	%@9)}
+=	)@9)
+=	)@9)
+=	)@9)
+=	)@9)}
+=	-@9)
+=	-@9)
+=	-@9)
+=	-@9)}
+=	1@9)
+=	1@9)
+=	1@9)
+=	1@9)}
+=	5@9)
+=	5@9)
+=	5@9)
+=	5@9)}
+T	A	
+=	9@9)
+=	9@9)
+=	9@9)
+=	9@9)}
+=	=@9)
+=	=@9)
+=	=@9)
+=	=@9)}
+=	A@9)
+=	A@9)
+=	A@9)
+=	A@9)}
+=	E@9)
+=	E@9)
+=	E@9)
+~@9i>
++}@9m~
+D	@z+
+	ka	
+_!@q(
+ j!)
+?!@q
+Lii8k	
+_7	<
+jj@9	
+T(}@9
+Sk)@
+ jk)
+9k-L*
+ j+d
+k 	Kz
+	k+h
+M@jj
+3+=P
+M@jj
+S(Yh
+!@qh
+6(8@
+4(8@
+T(8@
+R)Yo
+6)8@
+2@q 
+Pq(|
+6(8@
+}@k!`
+	ka	
+6(8@
+/A)h
+license=GPL
+import_ns=VFS_internal_I_am_really_a_filesystem_and_am_NOT_a_driver
+name=paradise
+depends=
+vermagic=6.12.76-4k SMP preempt mod_unload modversions aarch64
+paradise
+Linux
+Linux
+Android (14043575, +pgo, +bolt, +lto, +mlgo, based on r536225) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project b3a530ec6537146650e42be89f1089e9a3588460)
+(iq12XZ]v
+	/pLE
+.note.gnu.property
+.note.Linux
+.data..percpu
+.rela.exit.text
+.rela.init.text
+.hyp.text
+.rela.text
+.comment
+.init.plt
+.hyp.bss
+.rela.altinstructions
+__versions
+.rela.codetag.alloc_tags
+__version_ext_names
+.hyp.patchable_function_entries
+.hyp.event_ids
+__version_ext_crcs
+.modinfo
+.note.GNU-stack
+.llvm_addrsig
+.BTF.base
+.text.ftrace_trampoline
+.rela.init.eh_frame
+.rela.gnu.linkonce.this_module
+.rela__ex_table
+.rela__jump_table
+.rela__bug_table
+.data..once
+.note.gnu.build-id
+.shstrtab
+.strtab
+.symtab
+.hyp.rodata
+.rela.rodata
+.rela.exit.data
+.rela.init.data
+.hyp.data
+.rela.data
+.BTF
+sample_hbp_handler_entry
+__kcfi_typeid_do_write_physical_memory
+__kcfi_typeid_do_read_physical_memory
+memcpy
+arraylist_destroy
+mem_alloc_profiling_key
+__kcfi_typeid_do_get_thread_pacia_key
+__kcfi_typeid_do_get_thread_pacga_key
+__kcfi_typeid_do_bind_thread_pacga_key
+kallsyms_lookup_name_ex
+emu_simd_ext_hw
+emu_simd_fp_by_element_hw
+emu_simd_fhm_by_element_hw
+emu_simd_fcma_by_element_hw
+emu_simd_write_scalar_hw
+emu_simd_scalar_rdm_hw
+emu_simd_insert_general_hw
+emu_simd_dup_general_hw
+emu_simd_extract_lane_hw
+emu_simd_extract_signed_lane_hw
+emu_fp16_scalar_3source_hw
+emu_fp16_scalar_2source_hw
+emu_fp16_scalar_1source_hw
+emu_simd_vector_3same_extra_hw
+phys_input_dev
+clear_hwbp_regs_on_cpu
+synchronize_rcu
+cfi_patch_words.patch_text
+mmput
+fput
+bio_put
+kfn_path_put
+is_file_exist
+disable_kprobe_blacklist
+input_dev_list
+hidden_path_list
+arm64_decode_ldst
+__list_del_entry_valid_or_report
+__list_add_valid_or_report
+iov_iter_revert
+kfn_path_umount
+kfn_path_mount
+inline_hook_install_count
+inline_hook_remove_count
+work_trampoline_breakpoint
+work_trampoline_watchpoint
+fn_perf_bp_event
+__kcfi_typeid_initEvent
+__kcfi_typeid_runEvent
+paradise_supercalls_exit
+paradise_gyro_exit
+paradise_supercalls_init
+paradise_hwbp_init
+paradise_gyro_init
+eventInit
+submit_bio_wait
+bio_alloc_bioset
+memset
+__kcfi_typeid_do_hwbp_set
+fs_bio_set
+arraylist_get
+__put_task_struct
+compare_task_struct
+swap_write_page_direct
+inline_hook_trampoline_slots
+__kcfi_typeid_do_hide_process
+__kcfi_typeid_do_find_process
+cfi_bypass
+arm64_decode_base_registers
+prepare_break_point_handlers
+num_wrps
+num_brps
+alt_cb_patch_nops
+paradise_anon_fops
+g_hook_ops
+g_orig_ops
+____versions
+resolve_hide_symbols
+arm64_decode_bit_masks
+g_finish_task_switch_ret_hooks
+g_debug_exception_hooks
+g_kgsl_hooks
+__start_alloc_tags
+__stop_alloc_tags
+get_unused_fd_flags
+__kcfi_typeid_do_list_processes
+____version_ext_names
+cfi_bypass.patches
+kmalloc_caches
+__free_pages
+arm64_decode_simd.rounding_modes
+hook_patch_words
+__kcfi_typeid_do_hwbp_get_records
+__kcfi_typeid_do_hwbp_clear_records
+get_module_bounds
+g_hidden_pids
+g_hide_kgsl_pids
+____version_ext_crcs
+strstr
+input_event_ptr
+aarch64_insn_write_ptr
+input_mt_report_slot_state_ptr
+input_mt_sync_frame_ptr
+flush_icache_range_ptr
+task_work_add_ptr
+ensure_capacity._alloc_tag_cntr
+do_write_physical_memory._alloc_tag_cntr
+do_read_physical_memory._alloc_tag_cntr
+paradise_hwbp_init._alloc_tag_cntr
+swap_write_page_direct._alloc_tag_cntr
+swap_read_page_direct._alloc_tag_cntr
+hide_mount_tmpfs._alloc_tag_cntr
+do_list_processes._alloc_tag_cntr
+do_hwbp_get_records._alloc_tag_cntr
+paradise_anon_open._alloc_tag_cntr
+do_hide_path._alloc_tag_cntr
+gyro_sendmsg._alloc_tag_cntr
+arraylist_create._alloc_tag_cntr
+reboot_handler_pre._alloc_tag_cntr
+touchErr
+emu_hw_store_pair_gpr
+emu_hw_store_gpr
+emu_hw_load_gpr
+start_task_run_monitor
+stop_task_run_monitor
+strchr
+strrchr
+arm64_decode_data_processing_register
+_copy_from_iter
+__arch_copy_to_user
+_inline_copy_to_user
+__arch_copy_from_user
+_inline_copy_from_user
+memstart_addr
+arraylist_clear
+paradise_hwbp_cleanup
+hide_kgsl_cleanup
+hide_task_cleanup
+paradise_hide_cleanup
+strcmp
+strncmp
+bcmp
+reboot_kp
+emu_hw_store_pair_fp
+emu_hw_load_pair_fp
+emu_hw_store_fp
+emu_hw_load_fp
+g_bp_info
+g_swap_info
+emulate_insn
+arm64_decode_insn
+emu_simulate_fp_simd_insn
+y_proportion
+x_proportion
+paradise_patch_text_fn
+__copy_to_user_fn
+__copy_from_user_fn
+paradise_flip_open.reserve_flip_open
+paradise_anon_open
+strlen
+strnlen
+hide_task_is_hidden
+get_task_mm
+paradise_anon_ioctl
+hide_kgsl_install
+hide_task_install
+fd_install
+inline_hook_remove_all
+__stack_chk_fail
+list_del
+kobject_del
+__warn_printk
+init_task
+get_target_task
+get_pid_task
+__cpu_online_mask
+kgsl_process_init_hook_work
+sysfs_create_group_hook_work
+filldir64_hook_work
+__kcfi_typeid_do_config_gyro_hook
+g_filldir64_hook
+mutex_unlock
+_raw_spin_unlock
+__rcu_read_unlock
+mutex_lock
+paradise_hwbp_lock
+_raw_spin_lock
+g_hide_kgsl_lock
+gyro_ctrl_lock
+g_hide_task_lock
+gyro_hook_lock
+inline_hook_lock
+hidden_path_lock
+__rcu_read_lock
+check_target_can_hijack
+hide_umount_path
+kfn_kern_path
+__kcfi_typeid_do_hide_path
+ret_work_finish_task_switch
+ret_trampoline_finish_task_switch
+work_trampoline_finish_task_switch
+init_arch
+arm64_decode_branch
+gyro_sendmsg
+__tracepoint_mmap_lock_start_locking
+__mmap_lock_do_trace_start_locking
+__kcfi_typeid_do_hwbp_get_config
+paradise_hwbp_fill_config
+write_q_reg
+read_q_reg
+wp_on_reg
+bp_on_reg
+write_wb_reg
+read_wb_reg
+ensure_capacity._alloc_tag
+do_write_physical_memory._alloc_tag
+do_read_physical_memory._alloc_tag
+paradise_hwbp_init._alloc_tag
+swap_write_page_direct._alloc_tag
+swap_read_page_direct._alloc_tag
+hide_mount_tmpfs._alloc_tag
+do_list_processes._alloc_tag
+do_hwbp_get_records._alloc_tag
+paradise_anon_open._alloc_tag
+do_hide_path._alloc_tag
+gyro_sendmsg._alloc_tag
+arraylist_create._alloc_tag
+reboot_handler_pre._alloc_tag
+snprintf
+get_free_pages_noprof
+__alloc_pages_noprof
+__kmalloc_cache_noprof
+__kvmalloc_node_noprof
+vzalloc_noprof
+__kmalloc_noprof
+krealloc_noprof
+__check_object_size
+__dcache_line_size
+arm64_decode_sve
+memmove
+arraylist_remove
+__kcfi_typeid_do_hwbp_remove
+hide_kgsl_remove
+hide_task_remove
+__kcfi_typeid_do_is_process_alive
+is_pid_alive
+paradise_get_file_private
+paradise_hwbp_state
+g_gyro_state
+refcount_warn_saturate
+trampoline_build.tramp_template
+arm64_decode_data_processing_immediate
+arraylist_create
+hw_breakpoint_parse
+paradise_flip_close.reserve_flip_close
+paradise_anon_release
+__kcfi_typeid_do_get_module_base
+reboot_handler_pre
+get_file.__already_done
+find_process_by_name.my_get_cmdline
+arm64_decode_sme
+find_process_by_name
+kallsyms_lookup_name_ex.lookup_name
+init_module
+__this_module
+cleanup_module
+hide_module
+preempt_schedule
+anon_inode_getfile
+current_paradise_file
+smp_call_function_single
+uaccess_ttbr0_enable
+hook_write_range
+bio_add_page
+kvfree
+kfree
+should_hide
+iov_iter_advance
+unregister_kprobe
+__kcfi_typeid_do_hwbp_set_record
+mas_find
+arm64_decode_simd
+put_pid
+find_get_pid
+paradise_install_fd
+close_fd
+put_unused_fd
+g_slot_used
+__tracepoint_mmap_lock_released
+__mmap_lock_do_trace_released
+__tracepoint_mmap_lock_acquire_returned
+__mmap_lock_do_trace_acquire_returned
+g_hooks_installed
+kasan_flag_enabled
+g_num_hooked
+g_hooked
+gyro_unhook_all_locked
+arraylist_add
+up_read
+down_read
+paradise_install_fd_tw_func
+__fortify_panic
+__kunmap_atomic
+kmap_atomic
+iov_iter_kvec
+cfi_return_stub
+cfi_warn_stub
+lockfree_va_to_pa
+__llvm_fs_discriminator__
+$d.199
+$d.99
+$d.189
+$x.89
+$d.89
+$x.279
+$d.179
+$x.79
+$d.79
+$x.269
+$d.169
+$x.69
+$d.69
+$x.259
+$d.159
+$x.59
+$d.59
+$d.249
+$d.149
+$x.49
+$d.49
+$d.239
+$d.139
+$d.39
+$d.229
+$d.129
+$d.29
+_note_19
+$d.219
+$d.119
+$d.19
+$d.209
+$d.109
+$d.9
+$x.198
+$x.98
+$x.188
+$x.88
+$d.88
+$d.278
+$x.178
+$x.78
+$d.78
+$d.268
+$x.168
+$x.68
+$d.68
+$d.258
+$x.158
+$x.58
+$d.58
+$x.248
+$x.148
+$x.48
+$d.48
+$x.238
+$x.138
+$x.38
+$x.228
+$x.128
+$x.28
+_note_18
+$x.218
+$x.118
+$x.18
+$d.18
+$x.208
+$x.108
+$x.8
+$d.8
+$d.197
+$d.97
+$d.187
+$x.87
+$d.87
+$x.277
+$d.177
+$x.77
+$d.77
+$x.267
+$d.167
+$x.67
+$d.67
+$x.257
+$d.157
+$x.57
+$d.57
+$d.247
+$d.147
+$x.47
+$d.47
+$d.237
+$d.137
+$d.37
+$d.227
+$d.127
+swap_write_page_direct._alloc_tag.27
+$d.27
+$d.217
+$d.117
+$d.17
+$d.207
+$d.107
+$d.7
+$x.196
+$x.96
+$d.96
+__UNIQUE_ID_import_ns786
+$d.286
+$x.186
+$x.86
+$d.86
+$d.276
+$x.176
+$x.76
+$d.76
+$d.266
+$x.166
+$x.66
+$d.66
+$d.256
+$x.156
+$x.56
+$d.56
+$x.246
+$x.146
+$x.46
+$d.46
+__UNIQUE_ID_depends536
+$x.236
+$x.136
+$d.136
+$x.36
+$x.226
+$x.126
+$d.126
+$x.26
+swap_write_page_direct._alloc_tag_cntr.26
+$x.216
+$x.116
+$x.16
+$x.206
+$x.106
+$x.6
+$d.6
+$d.295
+$d.195
+$x.95
+$d.95
+__UNIQUE_ID_license785
+$d.285
+$d.185
+$x.85
+$d.85
+$x.275
+$d.175
+$x.75
+$d.75
+$x.265
+$d.165
+$x.65
+$d.65
+$d.255
+$d.155
+$x.55
+$d.55
+$d.245
+$d.145
+$x.45
+$d.45
+__UNIQUE_ID_name535
+__UNIQUE_ID_vermagic535
+$d.235
+$d.135
+$d.35
+$d.225
+$d.125
+$d.25
+$d.215
+$d.115
+$d.15
+$d.205
+$d.105
+$d.5
+$d.294
+$x.194
+$x.94
+$d.94
+__UNIQUE_ID___addressable_cleanup_module784
+$d.284
+$x.184
+$x.84
+$d.84
+$d.274
+$x.174
+$x.74
+$d.74
+$d.264
+$x.164
+$x.64
+$d.64
+$x.254
+$x.154
+$x.54
+$d.54
+$x.244
+$x.144
+$x.44
+$d.44
+$x.234
+$x.134
+$x.34
+$d.34
+$x.224
+$x.124
+$d.124
+$x.24
+$x.214
+$x.114
+$x.14
+$d.14
+$x.204
+$x.104
+$x.4
+arraylist_create._alloc_tag.4
+$d.4
+$d.193
+$x.93
+$d.93
+__UNIQUE_ID___addressable_init_module783
+$d.283
+$d.183
+$x.83
+$d.83
+$x.273
+$d.173
+$x.73
+$d.73
+$x.263
+$d.163
+$x.63
+$d.63
+$d.253
+$d.153
+$x.53
+$d.53
+$d.243
+$d.143
+$x.43
+$d.43
+$d.233
+$d.133
+$d.33
+$d.223
+$d.123
+$d.23
+$d.213
+$d.113
+$d.13
+$d.203
+$d.103
+arraylist_create._alloc_tag_cntr.3
+$d.3
+$x.192
+$d.192
+$x.92
+$d.92
+$d.282
+$x.182
+$x.82
+$d.82
+$d.272
+$x.172
+$x.72
+$d.72
+$d.262
+$x.162
+$x.62
+$d.62
+$x.252
+$x.152
+$x.52
+$d.52
+$x.242
+$x.142
+$x.42
+$d.42
+$x.232
+$x.132
+$x.32
+$d.32
+$x.222
+$x.122
+$d.122
+$x.22
+$d.22
+$x.212
+$x.112
+$x.12
+$d.12
+$x.202
+$x.102
+$x.2
+$d.2
+$d.191
+$x.91
+$d.91
+$d.281
+$d.181
+$x.81
+$d.81
+$x.271
+$d.171
+$x.71
+$d.71
+$x.261
+$d.161
+$x.61
+$d.61
+$d.251
+$d.151
+$x.51
+$d.51
+$d.241
+$d.141
+$x.41
+$d.41
+$d.231
+$d.131
+$d.31
+$d.221
+$d.121
+$d.21
+$d.211
+$d.111
+$d.11
+$d.201
+$d.101
+$d.1
+__kcfi_typeid_do_get_thread_tpidr_el0
+__kcfi_typeid_do_get_main_thread_elf0
+$x.190
+$x.90
+$d.90
+$x.180
+$x.80
+$d.80
+$d.270
+$x.170
+$x.70
+$d.70
+$d.260
+$x.160
+$x.60
+$d.60
+$x.250
+$x.150
+$x.50
+$d.50
+$x.240
+$x.140
+$x.40
+$d.40
+$x.230
+$x.130
+$x.30
+$x.220
+$x.120
+$x.20
+$d.20
+$x.210
+$x.110
+$x.10
+$d.10
+$x.200
+$x.100
+ioctl_cmd_map
+handler
+ioctl_handler_t
+task_work_add_t
+paradise_file_private
+used_pages
+karray_list
+data
+size
+capacity
+paradise_install_fd_tw
+outp
+kallsyms_lookup_name_t
+cfi_patch_desc
+symbol
+insns
+nr_insns
+cfi_patch_text_t
+arch_copy_to_user_t
+arch_copy_from_user_t
+paradise_hidden_path
+list
+mounted
+paradise_memory_rw_cmd
+src_va
+dst_va
+phy_addr
+paradise_get_module_base_cmd
+name
+base
+vm_flag
+paradise_find_proc_cmd
+paradise_is_proc_alive_cmd
+alive
+paradise_hide_path_cmd
+hide
+paradise_hide_proc_cmd
+paradise_list_processes_cmd
+bitmap
+bitmap_size
+process_count
+paradise_main_thread_elf0_cmd
+elf0
+paradise_thread_tpidr_el0_cmd
+tpidr_el0
+paradise_thread_pac_key_cmd
+algo
+paradise_bind_thread_pacga_key_cmd
+target_tid
+hook_entry
+target_sym
+target_addr
+work_fn
+trampoline
+saved_insn
+installed
+slot_index
+gyro_state
+enabled
+type_mask
+axis_raw
+hooked_entry
+sock
+gfs_t
+pfs_t
+paradise_gyro_config_cmd
+enable
+ASensorEvent_kernel
+version
+sensor
+type
+reserved0
+timestamp
+flags
+reserved1
+paradise_patch_text_t
+arm64_decode_status
+ARM64_DECODE_OK
+ARM64_DECODE_UNSUPPORTED
+ARM64_DECODE_UNPREDICTABLE
+ARM64_DECODE_UNALLOCATED
+arm64_insn_class
+ARM64_INSN_CLASS_UNKNOWN
+ARM64_INSN_CLASS_DATA_PROCESSING_IMMEDIATE
+ARM64_INSN_CLASS_DATA_PROCESSING_REGISTER
+ARM64_INSN_CLASS_LOAD_STORE
+ARM64_INSN_CLASS_BRANCH_EXCEPTION_SYSTEM
+ARM64_INSN_CLASS_DATA_PROCESSING_SIMD_FP
+ARM64_INSN_CLASS_SVE
+ARM64_INSN_CLASS_SME
+arm64_opcode
+ARM64_OP_UNKNOWN
+ARM64_OP_NOP
+ARM64_OP_HINT
+ARM64_OP_BARRIER
+ARM64_OP_EXCEPTION_GENERATION
+ARM64_OP_EXCEPTION_RETURN
+ARM64_OP_MRS
+ARM64_OP_MSR_REGISTER
+ARM64_OP_B
+ARM64_OP_BL
+ARM64_OP_BR
+ARM64_OP_BLR
+ARM64_OP_RET
+ARM64_OP_B_COND
+ARM64_OP_CBZ
+ARM64_OP_CBNZ
+ARM64_OP_TBZ
+ARM64_OP_TBNZ
+ARM64_OP_ADR
+ARM64_OP_ADRP
+ARM64_OP_ADD_SUB_IMMEDIATE
+ARM64_OP_MIN_MAX_IMMEDIATE
+ARM64_OP_LOGICAL_IMMEDIATE
+ARM64_OP_BITFIELD
+ARM64_OP_EXTRACT
+ARM64_OP_MOVE_WIDE
+ARM64_OP_ADD_SUB_SHIFTED
+ARM64_OP_ADD_SUB_EXTENDED
+ARM64_OP_LOGICAL_SHIFTED
+ARM64_OP_CONDITIONAL_SELECT
+ARM64_OP_DATA_PROCESSING_2_SOURCE
+ARM64_OP_MULTIPLY_ADD
+ARM64_OP_MULTIPLY_HIGH
+ARM64_OP_ADD_SUB_CARRY
+ARM64_OP_CONDITIONAL_COMPARE
+ARM64_OP_DATA_PROCESSING_1_SOURCE
+ARM64_OP_ATOMIC_RMW
+ARM64_OP_CAS
+ARM64_OP_CASP
+ARM64_OP_EXCLUSIVE
+ARM64_OP_RCPC_UNSCALED
+ARM64_OP_LDAPR
+ARM64_OP_PREFETCH
+ARM64_OP_LOAD_LITERAL
+ARM64_OP_PREFETCH_LITERAL
+ARM64_OP_LOAD_STORE_PAIR
+ARM64_OP_LOAD_STORE_SINGLE
+ARM64_OP_FP_SIMD
+ARM64_OP_SVE
+ARM64_OP_SME
+arm64_operation
+ARM64_OPERATION_NONE
+ARM64_OPERATION_ADD
+ARM64_OPERATION_SUB
+ARM64_OPERATION_AND
+ARM64_OPERATION_ORR
+ARM64_OPERATION_EOR
+ARM64_OPERATION_ANDS
+ARM64_OPERATION_SBFM
+ARM64_OPERATION_BFM
+ARM64_OPERATION_UBFM
+ARM64_OPERATION_EXTR
+ARM64_OPERATION_MOVN
+ARM64_OPERATION_MOVZ
+ARM64_OPERATION_MOVK
+ARM64_OPERATION_SMAX
+ARM64_OPERATION_SMIN
+ARM64_OPERATION_UMAX
+ARM64_OPERATION_UMIN
+ARM64_OPERATION_CSEL
+ARM64_OPERATION_CSINC
+ARM64_OPERATION_CSINV
+ARM64_OPERATION_CSNEG
+ARM64_OPERATION_ADC
+ARM64_OPERATION_ADCS
+ARM64_OPERATION_SBC
+ARM64_OPERATION_SBCS
+ARM64_OPERATION_CCMP
+ARM64_OPERATION_CCMN
+ARM64_OPERATION_UDIV
+ARM64_OPERATION_SDIV
+ARM64_OPERATION_LSLV
+ARM64_OPERATION_LSRV
+ARM64_OPERATION_ASRV
+ARM64_OPERATION_RORV
+ARM64_OPERATION_CRC32B
+ARM64_OPERATION_CRC32H
+ARM64_OPERATION_CRC32W
+ARM64_OPERATION_CRC32X
+ARM64_OPERATION_CRC32CB
+ARM64_OPERATION_CRC32CH
+ARM64_OPERATION_CRC32CW
+ARM64_OPERATION_CRC32CX
+ARM64_OPERATION_MADD
+ARM64_OPERATION_MSUB
+ARM64_OPERATION_SMADDL
+ARM64_OPERATION_SMSUBL
+ARM64_OPERATION_UMADDL
+ARM64_OPERATION_UMSUBL
+ARM64_OPERATION_SMULH
+ARM64_OPERATION_UMULH
+ARM64_OPERATION_RBIT
+ARM64_OPERATION_REV16
+ARM64_OPERATION_REV32
+ARM64_OPERATION_REV64
+ARM64_OPERATION_CLZ
+ARM64_OPERATION_CLS
+ARM64_OPERATION_CTZ
+ARM64_OPERATION_CNT
+ARM64_OPERATION_ABS
+ARM64_OPERATION_LDADD
+ARM64_OPERATION_LDCLR
+ARM64_OPERATION_LDEOR
+ARM64_OPERATION_LDSET
+ARM64_OPERATION_LDSMAX
+ARM64_OPERATION_LDSMIN
+ARM64_OPERATION_LDUMAX
+ARM64_OPERATION_LDUMIN
+ARM64_OPERATION_SWP
+arm64_system_operation
+ARM64_SYSTEM_OP_NONE
+ARM64_SYSTEM_OP_YIELD
+ARM64_SYSTEM_OP_WFE
+ARM64_SYSTEM_OP_WFI
+ARM64_SYSTEM_OP_SEV
+ARM64_SYSTEM_OP_SEVL
+ARM64_SYSTEM_OP_CLREX
+ARM64_SYSTEM_OP_DSB
+ARM64_SYSTEM_OP_DMB
+ARM64_SYSTEM_OP_ISB
+ARM64_SYSTEM_OP_SVC
+ARM64_SYSTEM_OP_HVC
+ARM64_SYSTEM_OP_SMC
+ARM64_SYSTEM_OP_BRK
+ARM64_SYSTEM_OP_HLT
+ARM64_SYSTEM_OP_ERET
+ARM64_SYSTEM_OP_DRPS
+ARM64_SYSTEM_OP_PACIASP
+ARM64_SYSTEM_OP_BTI
+arm64_address_mode
+ARM64_ADDRESS_NONE
+ARM64_ADDRESS_LITERAL
+ARM64_ADDRESS_BASE
+ARM64_ADDRESS_UNSIGNED_OFFSET
+ARM64_ADDRESS_UNSCALED_OFFSET
+ARM64_ADDRESS_PRE_INDEX
+ARM64_ADDRESS_POST_INDEX
+ARM64_ADDRESS_REGISTER_OFFSET
+arm64_simd_form
+ARM64_SIMD_FORM_NONE
+ARM64_SIMD_FORM_SCALAR_FP_IMMEDIATE
+ARM64_SIMD_FORM_SCALAR_FP_BINARY
+ARM64_SIMD_FORM_SCALAR_FP_UNARY
+ARM64_SIMD_FORM_SCALAR_FP_TERNARY
+ARM64_SIMD_FORM_SCALAR_COMPARE
+ARM64_SIMD_FORM_SCALAR_CONDITIONAL_COMPARE
+ARM64_SIMD_FORM_SCALAR_SELECT
+ARM64_SIMD_FORM_FP_GPR_TRANSFER
+ARM64_SIMD_FORM_CONVERT
+ARM64_SIMD_FORM_VECTOR_EXTRACT
+ARM64_SIMD_FORM_VECTOR_IMMEDIATE
+ARM64_SIMD_FORM_VECTOR_COPY
+ARM64_SIMD_FORM_VECTOR_SHIFT
+ARM64_SIMD_FORM_VECTOR_PERMUTE
+ARM64_SIMD_FORM_VECTOR_LOGICAL
+ARM64_SIMD_FORM_VECTOR_INTEGER_3REG
+ARM64_SIMD_FORM_VECTOR_EXTENDED_3REG
+ARM64_SIMD_FORM_VECTOR_FP_3REG
+ARM64_SIMD_FORM_VECTOR_FP_WIDENING_3REG
+ARM64_SIMD_FORM_VECTOR_COMPLEX_3REG
+ARM64_SIMD_FORM_VECTOR_FP_UNARY
+ARM64_SIMD_FORM_VECTOR_REVERSE
+ARM64_SIMD_FORM_SCALAR_COPY
+ARM64_SIMD_FORM_FP_BY_ELEMENT
+ARM64_SIMD_FORM_FP_COMPARE_ZERO
+ARM64_SIMD_FORM_FP_REDUCE
+ARM64_SIMD_FORM_SCALAR_SIMD_3REG
+ARM64_SIMD_FORM_VECTOR_BY_ELEMENT
+ARM64_SIMD_FORM_SCALAR_BY_ELEMENT
+ARM64_SIMD_FORM_VECTOR_INTEGER_REDUCE
+ARM64_SIMD_FORM_VECTOR_NARROW
+ARM64_SIMD_FORM_SCALAR_NARROW
+arm64_simd_operation
+ARM64_SIMD_OP_NONE
+ARM64_SIMD_OP_FMUL
+ARM64_SIMD_OP_FMULX
+ARM64_SIMD_OP_FDIV
+ARM64_SIMD_OP_FADD
+ARM64_SIMD_OP_FSUB
+ARM64_SIMD_OP_FMAX
+ARM64_SIMD_OP_FMIN
+ARM64_SIMD_OP_FMAXNM
+ARM64_SIMD_OP_FMINNM
+ARM64_SIMD_OP_FNMUL
+ARM64_SIMD_OP_FMOV
+ARM64_SIMD_OP_FABS
+ARM64_SIMD_OP_FNEG
+ARM64_SIMD_OP_FSQRT
+ARM64_SIMD_OP_FRINT
+ARM64_SIMD_OP_FMLA
+ARM64_SIMD_OP_FMLS
+ARM64_SIMD_OP_FMLAL
+ARM64_SIMD_OP_FMLSL
+ARM64_SIMD_OP_FMADD
+ARM64_SIMD_OP_FMSUB
+ARM64_SIMD_OP_FNMADD
+ARM64_SIMD_OP_FNMSUB
+ARM64_SIMD_OP_FADDP
+ARM64_SIMD_OP_FMAXP
+ARM64_SIMD_OP_FMINP
+ARM64_SIMD_OP_FMAXNMP
+ARM64_SIMD_OP_FMINNMP
+ARM64_SIMD_OP_FABD
+ARM64_SIMD_OP_FRECPS
+ARM64_SIMD_OP_FRSQRTS
+ARM64_SIMD_OP_FCMP
+ARM64_SIMD_OP_FCMPE
+ARM64_SIMD_OP_FCCMP
+ARM64_SIMD_OP_FCCMPE
+ARM64_SIMD_OP_FCSEL
+ARM64_SIMD_OP_FCMEQ
+ARM64_SIMD_OP_FCMGE
+ARM64_SIMD_OP_FCMGT
+ARM64_SIMD_OP_FCMLE
+ARM64_SIMD_OP_FCMLT
+ARM64_SIMD_OP_FACGE
+ARM64_SIMD_OP_FACGT
+ARM64_SIMD_OP_FAMAX
+ARM64_SIMD_OP_FAMIN
+ARM64_SIMD_OP_FSCALE
+ARM64_SIMD_OP_FCMLA
+ARM64_SIMD_OP_FCADD
+ARM64_SIMD_OP_FMAXNMV
+ARM64_SIMD_OP_FMINNMV
+ARM64_SIMD_OP_FMAXV
+ARM64_SIMD_OP_FMINV
+ARM64_SIMD_OP_FMOV_GENERAL_TO_FP
+ARM64_SIMD_OP_FMOV_FP_TO_GENERAL
+ARM64_SIMD_OP_EXT
+ARM64_SIMD_OP_MOVI
+ARM64_SIMD_OP_MVNI
+ARM64_SIMD_OP_ORR
+ARM64_SIMD_OP_BIC
+ARM64_SIMD_OP_DUP_GENERAL
+ARM64_SIMD_OP_DUP_ELEMENT
+ARM64_SIMD_OP_INS_GENERAL
+ARM64_SIMD_OP_INS_ELEMENT
+ARM64_SIMD_OP_UMOV
+ARM64_SIMD_OP_SMOV
+ARM64_SIMD_OP_UZP1
+ARM64_SIMD_OP_TRN1
+ARM64_SIMD_OP_ZIP1
+ARM64_SIMD_OP_UZP2
+ARM64_SIMD_OP_TRN2
+ARM64_SIMD_OP_ZIP2
+ARM64_SIMD_OP_AND
+ARM64_SIMD_OP_ORN
+ARM64_SIMD_OP_EOR
+ARM64_SIMD_OP_BSL
+ARM64_SIMD_OP_BIT
+ARM64_SIMD_OP_BIF
+ARM64_SIMD_OP_REV64
+ARM64_SIMD_OP_REV32
+ARM64_SIMD_OP_REV16
+ARM64_SIMD_OP_ADD
+ARM64_SIMD_OP_SUB
+ARM64_SIMD_OP_CMEQ
+ARM64_SIMD_OP_CMGT
+ARM64_SIMD_OP_CMGE
+ARM64_SIMD_OP_CMHI
+ARM64_SIMD_OP_CMHS
+ARM64_SIMD_OP_SHADD
+ARM64_SIMD_OP_SQADD
+ARM64_SIMD_OP_SRHADD
+ARM64_SIMD_OP_SHSUB
+ARM64_SIMD_OP_SQSUB
+ARM64_SIMD_OP_SSHL
+ARM64_SIMD_OP_SQSHL
+ARM64_SIMD_OP_SRSHL
+ARM64_SIMD_OP_SQRSHL
+ARM64_SIMD_OP_SMAX
+ARM64_SIMD_OP_SMIN
+ARM64_SIMD_OP_SABD
+ARM64_SIMD_OP_SABA
+ARM64_SIMD_OP_CMTST
+ARM64_SIMD_OP_MLA
+ARM64_SIMD_OP_MUL
+ARM64_SIMD_OP_SMAXP
+ARM64_SIMD_OP_SMINP
+ARM64_SIMD_OP_SQDMULH
+ARM64_SIMD_OP_ADDP
+ARM64_SIMD_OP_UHADD
+ARM64_SIMD_OP_UQADD
+ARM64_SIMD_OP_URHADD
+ARM64_SIMD_OP_UHSUB
+ARM64_SIMD_OP_UQSUB
+ARM64_SIMD_OP_USHL
+ARM64_SIMD_OP_UQSHL
+ARM64_SIMD_OP_URSHL
+ARM64_SIMD_OP_UQRSHL
+ARM64_SIMD_OP_UMAX
+ARM64_SIMD_OP_UMIN
+ARM64_SIMD_OP_UABD
+ARM64_SIMD_OP_UABA
+ARM64_SIMD_OP_MLS
+ARM64_SIMD_OP_PMUL
+ARM64_SIMD_OP_UMAXP
+ARM64_SIMD_OP_UMINP
+ARM64_SIMD_OP_SQRDMULH
+ARM64_SIMD_OP_SQRDMLAH
+ARM64_SIMD_OP_SQRDMLSH
+ARM64_SIMD_OP_SDOT
+ARM64_SIMD_OP_UDOT
+ARM64_SIMD_OP_USDOT
+ARM64_SIMD_OP_SUDOT
+ARM64_SIMD_OP_BFDOT
+ARM64_SIMD_OP_BFMLAL
+ARM64_SIMD_OP_BFMMLA
+ARM64_SIMD_OP_SMMLA
+ARM64_SIMD_OP_UMMLA
+ARM64_SIMD_OP_USMMLA
+ARM64_SIMD_OP_SHL
+ARM64_SIMD_OP_SSHR
+ARM64_SIMD_OP_USHR
+ARM64_SIMD_OP_SCVTF_S_W
+ARM64_SIMD_OP_SCVTF_S_X
+ARM64_SIMD_OP_SCVTF_D_W
+ARM64_SIMD_OP_SCVTF_D_X
+ARM64_SIMD_OP_UCVTF_S_W
+ARM64_SIMD_OP_UCVTF_S_X
+ARM64_SIMD_OP_UCVTF_D_W
+ARM64_SIMD_OP_UCVTF_D_X
+ARM64_SIMD_OP_FCVT_TO_SIGNED
+ARM64_SIMD_OP_FCVT_TO_UNSIGNED
+ARM64_SIMD_OP_FCVT_S_D
+ARM64_SIMD_OP_FCVT_D_S
+ARM64_SIMD_OP_FCVT_TO_SIGNED_SIMD
+ARM64_SIMD_OP_FCVT_TO_UNSIGNED_SIMD
+ARM64_SIMD_OP_SCVTF_SIMD
+ARM64_SIMD_OP_UCVTF_SIMD
+ARM64_SIMD_OP_ADDV
+ARM64_SIMD_OP_SADDLV
+ARM64_SIMD_OP_UADDLV
+ARM64_SIMD_OP_SMAXV
+ARM64_SIMD_OP_SMINV
+ARM64_SIMD_OP_UMAXV
+ARM64_SIMD_OP_UMINV
+ARM64_SIMD_OP_XTN
+ARM64_SIMD_OP_SQXTN
+ARM64_SIMD_OP_UQXTN
+ARM64_SIMD_OP_SQXTUN
+arm64_fp_rounding_mode
+ARM64_FP_ROUND_NONE
+ARM64_FP_ROUND_NEAREST_EVEN
+ARM64_FP_ROUND_PLUS_INFINITY
+ARM64_FP_ROUND_MINUS_INFINITY
+ARM64_FP_ROUND_ZERO
+ARM64_FP_ROUND_NEAREST_AWAY
+ARM64_FP_ROUND_CURRENT
+ARM64_FP_ROUND_CURRENT_EXACT
+branch
+pc_relative
+system
+load_store
+simd
+arm64_decoded_insn
+status
+insn_class
+opcode
+operation
+operand_width
+operands
+arm64_u32
+arm64_u8
+arm64_branch_operands
+offset
+condition
+test_bit
+arm64_s64
+arm64_pc_relative_operands
+arm64_system_operands
+immediate
+option
+arm64_u16
+arm64_data_operands
+wmask
+tmask
+shift_type
+shift_amount
+immr
+nzcv
+arm64_u64
+arm64_load_store_operands
+address_mode
+access_bytes
+extend_type
+arm64_simd_operands
+form
+rounding_mode
+expanded_immediate
+element_width
+result_element_width
+lane_index
+source_lane_index
+break_point
+num_brps
+num_wrps
+tgid
+points
+bp_point
+on_hit
+hit_addr
+record_count
+records
+bp_type
+BP_BREAKPOINT_EMPTY
+BP_BREAKPOINT_R
+BP_BREAKPOINT_W
+BP_BREAKPOINT_RW
+BP_BREAKPOINT_X
+BP_BREAKPOINT_INVALID
+bp_len
+BP_BREAKPOINT_LEN_1
+BP_BREAKPOINT_LEN_2
+BP_BREAKPOINT_LEN_3
+BP_BREAKPOINT_LEN_4
+BP_BREAKPOINT_LEN_5
+BP_BREAKPOINT_LEN_6
+BP_BREAKPOINT_LEN_7
+BP_BREAKPOINT_LEN_8
+bp_scope
+BP_SCOPE_MAIN_THREAD
+BP_SCOPE_OTHER_THREADS
+BP_SCOPE_ALL_THREADS
+bp_record
+mask
+hit_count
+orig_x0
+syscallno
+pstate
+fpsr
+fpcr
+emu_insn_result
+EMU_INSN_HANDLED
+EMU_INSN_SKIP
+EMU_INSN_NOP
+emu_simd_cpu_feature
+EMU_SIMD_CPU_FEATURE_RDM
+EMU_SIMD_CPU_FEATURE_DOTPROD
+EMU_SIMD_CPU_FEATURE_FHM
+EMU_SIMD_CPU_FEATURE_FCMA
+EMU_SIMD_CPU_FEATURE_BF16
+EMU_SIMD_CPU_FEATURE_I8MM
+arm64_simd_rotation
+ARM64_SIMD_ROTATION_0
+ARM64_SIMD_ROTATION_90
+ARM64_SIMD_ROTATION_180
+ARM64_SIMD_ROTATION_270
+bp_reg_idx
+IDX_PC
+IDX_HIT_COUNT
+IDX_LR
+IDX_SP
+IDX_ORIG_X0
+IDX_SYSCALLNO
+IDX_PSTATE
+IDX_X0
+IDX_X1
+IDX_X2
+IDX_X3
+IDX_X4
+IDX_X5
+IDX_X6
+IDX_X7
+IDX_X8
+IDX_X9
+IDX_X10
+IDX_X11
+IDX_X12
+IDX_X13
+IDX_X14
+IDX_X15
+IDX_X16
+IDX_X17
+IDX_X18
+IDX_X19
+IDX_X20
+IDX_X21
+IDX_X22
+IDX_X23
+IDX_X24
+IDX_X25
+IDX_X26
+IDX_X27
+IDX_X28
+IDX_X29
+IDX_FPSR
+IDX_FPCR
+IDX_Q0
+IDX_Q1
+IDX_Q2
+IDX_Q3
+IDX_Q4
+IDX_Q5
+IDX_Q6
+IDX_Q7
+IDX_Q8
+IDX_Q9
+IDX_Q10
+IDX_Q11
+IDX_Q12
+IDX_Q13
+IDX_Q14
+IDX_Q15
+IDX_Q16
+IDX_Q17
+IDX_Q18
+IDX_Q19
+IDX_Q20
+IDX_Q21
+IDX_Q22
+IDX_Q23
+IDX_Q24
+IDX_Q25
+IDX_Q26
+IDX_Q27
+IDX_Q28
+IDX_Q29
+IDX_Q30
+IDX_Q31
+MAX_REG_COUNT
+paradise_hwbp_point_config
+address
+length
+scope
+reserved
+fp_regs
+emu_memory_address
+writeback_address
+writeback
+paradise_hwbp_config_cmd
+point_count
+paradise_hwbp_records_cmd
+point_index
+start_index
+count
+user
+paradise_hwbp_record_cmd
+record_index
+record
+paradise_hwbp_clear_records_cmd
+arm64_ldst_single_form
+ARM64_LDST_SINGLE_UNSIGNED_OFFSET
+ARM64_LDST_SINGLE_IMMEDIATE
+ARM64_LDST_SINGLE_REGISTER_OFFSET
+ARM64_LDST_SINGLE_PAUTH
+ARM64_LDST_SINGLE_ATOMIC
+input_event_fn_t
+input_mt_report_slot_state_fn_t
+input_mt_sync_frame_fn_t
+paradise_touch_init_cmd
+max_x
+max_y
+paradise_touch_event_cmd
+slot
+decoded
+arm64_decode_base_registers
+imms
+width
+arm64_decode_bit_masks
+arm64_decode_branch
+arm64_decode_data_processing_immediate
+arm64_decode_data_processing_register
+arm64_decode_insn
+arm64_decode_ldst
+arm64_decode_simd
+arm64_decode_sme
+arm64_decode_sve
+element
+arraylist_add
+arraylist_clear
+initial_capacity
+arraylist_create
+arraylist_destroy
+index
+arraylist_get
+arraylist_remove
+bind_thread_pacga_key
+cfi_bypass
+target
+check_target_can_hijack
+clear_hwbp_regs_on_cpu
+task1
+task2
+compare_task_struct
+disable_kprobe_blacklist
+do_bind_thread_pacga_key
+do_config_gyro_hook
+do_find_process
+do_get_main_thread_elf0
+do_get_module_base
+do_get_thread_pacga_key
+do_get_thread_pacia_key
+do_get_thread_tpidr_el0
+do_hide_path
+do_hide_process
+do_hwbp_clear_records
+do_hwbp_get_config
+do_hwbp_get_records
+do_hwbp_remove
+do_hwbp_set
+do_hwbp_set_record
+do_is_process_alive
+do_list_processes
+do_read_physical_memory
+do_write_physical_memory
+source
+emu_fp16_scalar_1source_hw
+left
+right
+emu_fp16_scalar_2source_hw
+addend
+emu_fp16_scalar_3source_hw
+addr
+bytes
+emu_hw_load_fp
+sign_extend
+unprivileged
+emu_hw_load_gpr
+non_temporal
+first
+second
+emu_hw_load_pair_fp
+value
+emu_hw_store_fp
+emu_hw_store_gpr
+emu_hw_store_pair_fp
+emu_hw_store_pair_gpr
+vector_width
+emu_simd_dup_general_hw
+byte_offset
+emu_simd_ext_hw
+lane
+emu_simd_extract_lane_hw
+emu_simd_extract_signed_lane_hw
+rotation
+emu_simd_fcma_by_element_hw
+emu_simd_fhm_by_element_hw
+lane_value
+emu_simd_fp_by_element_hw
+emu_simd_insert_general_hw
+emu_simd_scalar_rdm_hw
+emu_simd_vector_3same_extra_hw
+emu_simd_write_scalar_hw
+regs
+emu_simulate_fp_simd_insn
+specified_insn
+emulate_insn
+filldir64_hook_work
+find_process_by_name
+get_main_thread_elf0
+get_module_base
+base_out
+end_out
+get_module_bounds
+get_target_task
+get_thread_pacga_key
+get_thread_pacia_key
+get_thread_tpidr_el0
+gyro_sendmsg
+gyro_unhook_all_locked
+hide_kgsl_cleanup
+hide_kgsl_install
+hide_kgsl_remove
+hide_module
+hide_task_cleanup
+hide_task_install
+hide_task_is_hidden
+hide_task_remove
+target_path
+hide_umount_path
+hook_patch_words
+hook_write_range
+initEvent
+init_arch
+entries
+inline_hook_install_count
+inline_hook_remove_all
+inline_hook_remove_count
+filename
+is_file_exist
+is_pid_alive
+kallsyms_lookup_name_ex
+kgsl_process_init_hook_work
+kmap_atomic
+list_add
+pgd_base
+pa_out
+contig_out
+lockfree_va_to_pa
+paradise_anon_ioctl
+paradise_anon_open
+paradise_anon_release
+paradise_get_file_private
+paradise_gyro_exit
+paradise_gyro_init
+paradise_hide_cleanup
+paradise_hwbp_cleanup
+paradise_hwbp_fill_config
+paradise_hwbp_init
+paradise_install_fd
+paradise_install_fd_tw_func
+paradise_supercalls_exit
+paradise_supercalls_init
+info
+prepare_break_point_handlers
+read_q_reg
+read_wb_reg
+reboot_handler_pre
+resolve_hide_symbols
+ret_trampoline_finish_task_switch
+ret_work_finish_task_switch
+runEvent
+self
+sample_hbp_handler_entry
+should_hide
+bp_info
+start_task_run_monitor
+stop_task_run_monitor
+entry
+swap_write_page_direct
+sysfs_create_group_hook_work
+hook_regs
+work_trampoline_breakpoint
+work_trampoline_finish_task_switch
+work_trampoline_watchpoint
+write_q_reg
+write_wb_reg
+__s32
+__s64
+__u8
+__u64
+size_t
+__kernel_size_t
+__kernel_ulong_t
+bool
+__u32
+umode_t
+pgd_t
+pgdval_t
+int32_t
+uint32_t
+__poll_t
+pid_t
+__kernel_pid_t
+phys_addr_t
+__uint128_t
+swp_entry_t
+fl_owner_t
+uintptr_t
+uint8_t
+uint64_t
+int64_t
+filp
+head
+char
+unsigned long
+long
+list_head
+unsigned int
+long long
+unsigned char
+unsigned short
+unsigned long long
+_Bool
+callback_head
+bpf_map
+file
+address_space
+inode
+dentry
+task_struct
+kernfs_open_file
+pt_regs
+unsigned __int128
+perf_event
+msghdr
+socket
+kprobe
+files_struct
+task_work_notify_mode
+modversion_info
+writeback_control
+page
+seq_file
+poll_table_struct
+path
+swap_info_struct
+input_dev
+float
